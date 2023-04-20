@@ -1,0 +1,555 @@
+{
+    "tree": [
+        {
+            "nextScene": [
+                2
+            ],
+            "name": "Village de depart",
+            "interaction": {
+                "text": [
+                    "Votre quete, si vous l'acceptez, rassembler pour le roi, l'objet et la somme note e votre droite",
+                    "Sortez du village, et faites attention !"
+                ],
+                "type": "text"
+            },
+            "alias": "spawn",
+            "id": 0
+        },
+        {
+            "nextScene": [],
+            "name": "Salle du roi",
+            "interaction": {
+                "text": [
+                    "Voila enfin votre quete qui touche a sa fin",
+                    "J'espere que vous avez reussi !"
+                ],
+                "type": "final"
+            },
+            "alias": "finish",
+            "id": 1
+        },
+        {
+            "nextScene": [
+                4,
+                5,
+                6
+            ],
+            "name": "Entree de la foret",
+            "interaction": {
+                "text": [
+                    "Voila l'entree de la foret"
+                ],
+                "type": "text"
+            },
+            "alias": "entree_de_la_foret",
+            "id": 2
+        },
+        {
+            "nextScene": [
+                10
+            ],
+            "name": "Sortie de la foret",
+            "interaction": {
+                "text": [
+                    "Nous somme enfin sortie de la foret"
+                ],
+                "type": "text"
+            },
+            "alias": "sortie_de_la_foret",
+            "id": 3
+        },
+        {
+            "nextScene": [
+                7,
+                8,
+                9
+            ],
+            "name": "Clairiere",
+            "interaction": {
+                "type": "battle",
+                "monster": "arceuspoison"
+            },
+            "alias": "clairiere",
+            "id": 4
+        },
+        {
+            "nextScene": [
+                7,
+                8,
+                9
+            ],
+            "name": "Grotte",
+            "interaction": {
+                "type": "battle",
+                "monster": "deoxysspeed"
+            },
+            "alias": "grotte",
+            "id": 5
+        },
+        {
+            "nextScene": [
+                7,
+                8,
+                9
+            ],
+            "name": "Lac",
+            "interaction": {
+                "type": "battle",
+                "monster": "purugly"
+            },
+            "alias": "lac",
+            "id": 6
+        },
+        {
+            "nextScene": [
+                3
+            ],
+            "name": "Clairiere",
+            "interaction": {
+                "type": "battle",
+                "monster": "pidove"
+            },
+            "alias": "clairiere",
+            "id": 7
+        },
+        {
+            "nextScene": [
+                3
+            ],
+            "name": "Grotte",
+            "interaction": {
+                "type": "temple"
+            },
+            "alias": "grotte",
+            "id": 8
+        },
+        {
+            "nextScene": [
+                3
+            ],
+            "name": "Lac",
+            "interaction": {
+                "item": "vsrecorder",
+                "type": "treasure"
+            },
+            "alias": "lac",
+            "id": 9
+        },
+        {
+            "nextScene": [
+                12,
+                13,
+                14
+            ],
+            "name": "Entree de la ville",
+            "interaction": {
+                "text": [
+                    "Nous voila enfin en ville"
+                ],
+                "type": "text"
+            },
+            "alias": "entree_de_la_ville",
+            "id": 10
+        },
+        {
+            "nextScene": [
+                18
+            ],
+            "name": "Sortie de la ville",
+            "interaction": {
+                "text": [
+                    "C'est repartie pour l'aventure !"
+                ],
+                "type": "text"
+            },
+            "alias": "sortie_de_la_ville",
+            "id": 11
+        },
+        {
+            "nextScene": [
+                15,
+                16,
+                17
+            ],
+            "name": "Grand place",
+            "interaction": {
+                "type": "temple"
+            },
+            "alias": "grand_place",
+            "id": 12
+        },
+        {
+            "nextScene": [
+                15,
+                16,
+                17
+            ],
+            "name": "Avenue",
+            "interaction": {
+                "type": "shop",
+                "items": [
+                    "fullheal",
+                    "mewtwonitey",
+                    "tr45",
+                    "teachytv"
+                ]
+            },
+            "alias": "avenue",
+            "id": 13
+        },
+        {
+            "nextScene": [
+                15,
+                16,
+                17
+            ],
+            "name": "Ruelle",
+            "interaction": {
+                "type": "shop",
+                "items": [
+                    "armorfossil",
+                    "leftovers",
+                    "festivalticket",
+                    "traveltrunk"
+                ]
+            },
+            "alias": "ruelle",
+            "id": 14
+        },
+        {
+            "nextScene": [
+                11
+            ],
+            "name": "Grand place",
+            "interaction": {
+                "item": "metalcoat",
+                "type": "treasure"
+            },
+            "alias": "grand_place",
+            "id": 15
+        },
+        {
+            "nextScene": [
+                11
+            ],
+            "name": "Avenue",
+            "interaction": {
+                "item": "zpowerring",
+                "type": "treasure"
+            },
+            "alias": "avenue",
+            "id": 16
+        },
+        {
+            "nextScene": [
+                11
+            ],
+            "name": "Ruelle",
+            "interaction": {
+                "type": "temple"
+            },
+            "alias": "ruelle",
+            "id": 17
+        },
+        {
+            "nextScene": [
+                20,
+                21,
+                22
+            ],
+            "name": "Entree de la foret",
+            "interaction": {
+                "text": [
+                    "Voila l'entree de la foret"
+                ],
+                "type": "text"
+            },
+            "alias": "entree_de_la_foret",
+            "id": 18
+        },
+        {
+            "nextScene": [
+                26
+            ],
+            "name": "Sortie de la foret",
+            "interaction": {
+                "text": [
+                    "Nous somme enfin sortie de la foret"
+                ],
+                "type": "text"
+            },
+            "alias": "sortie_de_la_foret",
+            "id": 19
+        },
+        {
+            "nextScene": [
+                23,
+                24,
+                25
+            ],
+            "name": "Clairiere",
+            "interaction": {
+                "item": "saladmix",
+                "type": "treasure"
+            },
+            "alias": "clairiere",
+            "id": 20
+        },
+        {
+            "nextScene": [
+                23,
+                24,
+                25
+            ],
+            "name": "Grotte",
+            "interaction": {
+                "type": "temple"
+            },
+            "alias": "grotte",
+            "id": 21
+        },
+        {
+            "nextScene": [
+                23,
+                24,
+                25
+            ],
+            "name": "Lac",
+            "interaction": {
+                "type": "battle",
+                "monster": "cinderace"
+            },
+            "alias": "lac",
+            "id": 22
+        },
+        {
+            "nextScene": [
+                19
+            ],
+            "name": "Clairiere",
+            "interaction": {
+                "item": "townmapgen4",
+                "type": "treasure"
+            },
+            "alias": "clairiere",
+            "id": 23
+        },
+        {
+            "nextScene": [
+                19
+            ],
+            "name": "Grotte",
+            "interaction": {
+                "type": "temple"
+            },
+            "alias": "grotte",
+            "id": 24
+        },
+        {
+            "nextScene": [
+                19
+            ],
+            "name": "Lac",
+            "interaction": {
+                "type": "temple"
+            },
+            "alias": "lac",
+            "id": 25
+        },
+        {
+            "nextScene": [
+                28,
+                29,
+                30
+            ],
+            "name": "Entree de la ville",
+            "interaction": {
+                "text": [
+                    "Nous voila enfin en ville"
+                ],
+                "type": "text"
+            },
+            "alias": "entree_de_la_ville",
+            "id": 26
+        },
+        {
+            "nextScene": [
+                1
+            ],
+            "name": "Sortie de la ville",
+            "interaction": {
+                "text": [
+                    "C'est repartie pour l'aventure !"
+                ],
+                "type": "text"
+            },
+            "alias": "sortie_de_la_ville",
+            "id": 27
+        },
+        {
+            "nextScene": [
+                31,
+                32,
+                33
+            ],
+            "name": "Grand place",
+            "interaction": {
+                "type": "temple"
+            },
+            "alias": "grand_place",
+            "id": 28
+        },
+        {
+            "nextScene": [
+                31,
+                32,
+                33
+            ],
+            "name": "Avenue",
+            "interaction": {
+                "type": "temple"
+            },
+            "alias": "avenue",
+            "id": 29
+        },
+        {
+            "nextScene": [
+                31,
+                32,
+                33
+            ],
+            "name": "Ruelle",
+            "interaction": {
+                "item": "devongoods",
+                "type": "treasure"
+            },
+            "alias": "ruelle",
+            "id": 30
+        },
+        {
+            "nextScene": [
+                27
+            ],
+            "name": "Grand place",
+            "interaction": {
+                "type": "shop",
+                "items": [
+                    "expcandyxl",
+                    "wonderlauncherxspatk6",
+                    "oaksparcel",
+                    "zinc"
+                ]
+            },
+            "alias": "grand_place",
+            "id": 31
+        },
+        {
+            "nextScene": [
+                27
+            ],
+            "name": "Avenue",
+            "interaction": {
+                "type": "shop",
+                "items": [
+                    "fullheal",
+                    "goldbottlecap",
+                    "bugtm",
+                    "moomoocheese"
+                ]
+            },
+            "alias": "avenue",
+            "id": 32
+        },
+        {
+            "nextScene": [
+                27
+            ],
+            "name": "Ruelle",
+            "interaction": {
+                "type": "shop",
+                "items": [
+                    "beadmail",
+                    "wonderlauncherxattack1",
+                    "tr05",
+                    "bikevoucher"
+                ]
+            },
+            "alias": "ruelle",
+            "id": 33
+        }
+    ],
+    "inventory": [
+        {
+            "bonusAttack": 76,
+            "bonusDefense": 49,
+            "name": "Holo Caster Green",
+            "sprite": "holo-caster--green",
+            "alias": "holocastergreen",
+            "bonusMaxHealth": 67
+        },
+        {
+            "bonusAttack": 76,
+            "bonusDefense": 49,
+            "name": "Holo Caster Green",
+            "sprite": "holo-caster--green",
+            "alias": "holocastergreen",
+            "bonusMaxHealth": 67
+        },
+        {
+            "bonusAttack": 76,
+            "bonusDefense": 49,
+            "name": "Holo Caster Green",
+            "sprite": "holo-caster--green",
+            "alias": "holocastergreen",
+            "bonusMaxHealth": 67
+        }
+    ],
+    "gotItem": true,
+    "objectiveGold": 50,
+    "skills": [
+        {
+            "damage": 40,
+            "name": "Accelerock",
+            "alias": "accelerock",
+            "type": "Rock",
+            "successfullChance": 85
+        },
+        {
+            "damage": 1,
+            "name": "Acid Downpour",
+            "alias": "aciddownpour",
+            "type": "Poison",
+            "successfullChance": 100
+        },
+        {
+            "damage": 55,
+            "name": "Acrobatics",
+            "alias": "acrobatics",
+            "type": "Flying",
+            "successfullChance": 75
+        },
+        {
+            "damage": 60,
+            "name": "Aerial Ace",
+            "alias": "aerialace",
+            "type": "Flying",
+            "successfullChance": 75
+        }
+    ],
+    "gotEnoughGold": false,
+    "actualHealth": 100,
+    "isAlive": true,
+    "objectiveItem": {
+        "bonusAttack": 76,
+        "bonusDefense": 49,
+        "name": "Holo Caster Green",
+        "sprite": "holo-caster--green",
+        "alias": "holocastergreen",
+        "bonusMaxHealth": 67
+    },
+    "defense": 10,
+    "attack": 100,
+    "actualSceneId": 0,
+    "maxHealth": 1000,
+    "goldCount": 1000
+}

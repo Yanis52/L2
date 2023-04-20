@@ -1,0 +1,3943 @@
+{
+    "0": {
+        "name": "null",
+        "type": "null",
+        "alias": "null",
+        "basePower": 0,
+        "successChance": 0
+    },
+    "1": {
+        "name": "10,000,000 Volt Thunderbolt",
+        "alias": "10000000voltthunderbolt",
+        "type": "Electric",
+        "basePower": 195,
+        "successChance": 5
+    },
+    "2": {
+        "name": "Absorb",
+        "alias": "absorb",
+        "type": "Grass",
+        "basePower": 20,
+        "successChance": 95
+    },
+    "3": {
+        "name": "Accelerock",
+        "alias": "accelerock",
+        "type": "Rock",
+        "basePower": 40,
+        "successChance": 85
+    },
+    "4": {
+        "name": "Acid",
+        "alias": "acid",
+        "type": "Poison",
+        "basePower": 40,
+        "successChance": 85
+    },
+    "5": {
+        "name": "Acid Downpour",
+        "alias": "aciddownpour",
+        "type": "Poison",
+        "basePower": 1,
+        "successChance": 100
+    },
+    "6": {
+        "name": "Acid Spray",
+        "alias": "acidspray",
+        "type": "Poison",
+        "basePower": 40,
+        "successChance": 85
+    },
+    "7": {
+        "name": "Acrobatics",
+        "alias": "acrobatics",
+        "type": "Flying",
+        "basePower": 55,
+        "successChance": 75
+    },
+    "8": {
+        "name": "Aerial Ace",
+        "alias": "aerialace",
+        "type": "Flying",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "9": {
+        "name": "Aeroblast",
+        "alias": "aeroblast",
+        "type": "Flying",
+        "basePower": 100,
+        "successChance": 55
+    },
+    "10": {
+        "name": "Air Cutter",
+        "alias": "aircutter",
+        "type": "Flying",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "11": {
+        "name": "Air Slash",
+        "alias": "airslash",
+        "type": "Flying",
+        "basePower": 75,
+        "successChance": 65
+    },
+    "12": {
+        "name": "All-Out Pummeling",
+        "alias": "alloutpummeling",
+        "type": "Fighting",
+        "basePower": 1,
+        "successChance": 100
+    },
+    "13": {
+        "name": "Anchor Shot",
+        "alias": "anchorshot",
+        "type": "Steel",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "14": {
+        "name": "Ancient Power",
+        "alias": "ancientpower",
+        "type": "Rock",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "15": {
+        "name": "Apple Acid",
+        "alias": "appleacid",
+        "type": "Grass",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "16": {
+        "name": "Aqua Jet",
+        "alias": "aquajet",
+        "type": "Water",
+        "basePower": 40,
+        "successChance": 85
+    },
+    "17": {
+        "name": "Aqua Tail",
+        "alias": "aquatail",
+        "type": "Water",
+        "basePower": 90,
+        "successChance": 60
+    },
+    "18": {
+        "name": "Arm Thrust",
+        "alias": "armthrust",
+        "type": "Fighting",
+        "basePower": 15,
+        "successChance": 95
+    },
+    "19": {
+        "name": "Assurance",
+        "alias": "assurance",
+        "type": "Dark",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "20": {
+        "name": "Astonish",
+        "alias": "astonish",
+        "type": "Ghost",
+        "basePower": 30,
+        "successChance": 90
+    },
+    "21": {
+        "name": "Astral Barrage",
+        "alias": "astralbarrage",
+        "type": "Ghost",
+        "basePower": 120,
+        "successChance": 5
+    },
+    "22": {
+        "name": "Attack Order",
+        "alias": "attackorder",
+        "type": "Bug",
+        "basePower": 90,
+        "successChance": 60
+    },
+    "23": {
+        "name": "Aura Sphere",
+        "alias": "aurasphere",
+        "type": "Fighting",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "24": {
+        "name": "Aura Wheel",
+        "alias": "aurawheel",
+        "type": "Electric",
+        "basePower": 110,
+        "successChance": 5
+    },
+    "25": {
+        "name": "Aurora Beam",
+        "alias": "aurorabeam",
+        "type": "Ice",
+        "basePower": 65,
+        "successChance": 70
+    },
+    "26": {
+        "name": "Avalanche",
+        "alias": "avalanche",
+        "type": "Ice",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "27": {
+        "name": "Baddy Bad",
+        "alias": "baddybad",
+        "type": "Dark",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "28": {
+        "name": "Barrage",
+        "alias": "barrage",
+        "type": "Normal",
+        "basePower": 15,
+        "successChance": 95
+    },
+    "29": {
+        "name": "Beak Blast",
+        "alias": "beakblast",
+        "type": "Flying",
+        "basePower": 100,
+        "successChance": 55
+    },
+    "30": {
+        "name": "Behemoth Bash",
+        "alias": "behemothbash",
+        "type": "Steel",
+        "basePower": 100,
+        "successChance": 55
+    },
+    "31": {
+        "name": "Behemoth Blade",
+        "alias": "behemothblade",
+        "type": "Steel",
+        "basePower": 100,
+        "successChance": 55
+    },
+    "32": {
+        "name": "Belch",
+        "alias": "belch",
+        "type": "Poison",
+        "basePower": 120,
+        "successChance": 5
+    },
+    "33": {
+        "name": "Bind",
+        "alias": "bind",
+        "type": "Normal",
+        "basePower": 15,
+        "successChance": 95
+    },
+    "34": {
+        "name": "Bite",
+        "alias": "bite",
+        "type": "Dark",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "35": {
+        "name": "Black Hole Eclipse",
+        "alias": "blackholeeclipse",
+        "type": "Dark",
+        "basePower": 1,
+        "successChance": 100
+    },
+    "36": {
+        "name": "Blast Burn",
+        "alias": "blastburn",
+        "type": "Fire",
+        "basePower": 150,
+        "successChance": 5
+    },
+    "37": {
+        "name": "Blaze Kick",
+        "alias": "blazekick",
+        "type": "Fire",
+        "basePower": 85,
+        "successChance": 60
+    },
+    "38": {
+        "name": "Blizzard",
+        "alias": "blizzard",
+        "type": "Ice",
+        "basePower": 110,
+        "successChance": 5
+    },
+    "39": {
+        "name": "Bloom Doom",
+        "alias": "bloomdoom",
+        "type": "Grass",
+        "basePower": 1,
+        "successChance": 100
+    },
+    "40": {
+        "name": "Blue Flare",
+        "alias": "blueflare",
+        "type": "Fire",
+        "basePower": 130,
+        "successChance": 5
+    },
+    "41": {
+        "name": "Body Press",
+        "alias": "bodypress",
+        "type": "Fighting",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "42": {
+        "name": "Body Slam",
+        "alias": "bodyslam",
+        "type": "Normal",
+        "basePower": 85,
+        "successChance": 60
+    },
+    "43": {
+        "name": "Bolt Beak",
+        "alias": "boltbeak",
+        "type": "Electric",
+        "basePower": 85,
+        "successChance": 60
+    },
+    "44": {
+        "name": "Bolt Strike",
+        "alias": "boltstrike",
+        "type": "Electric",
+        "basePower": 130,
+        "successChance": 5
+    },
+    "45": {
+        "name": "Bone Club",
+        "alias": "boneclub",
+        "type": "Ground",
+        "basePower": 65,
+        "successChance": 70
+    },
+    "46": {
+        "name": "Bonemerang",
+        "alias": "bonemerang",
+        "type": "Ground",
+        "basePower": 50,
+        "successChance": 80
+    },
+    "47": {
+        "name": "Bone Rush",
+        "alias": "bonerush",
+        "type": "Ground",
+        "basePower": 25,
+        "successChance": 90
+    },
+    "48": {
+        "name": "Boomburst",
+        "alias": "boomburst",
+        "type": "Normal",
+        "basePower": 140,
+        "successChance": 5
+    },
+    "49": {
+        "name": "Bounce",
+        "alias": "bounce",
+        "type": "Flying",
+        "basePower": 85,
+        "successChance": 60
+    },
+    "50": {
+        "name": "Bouncy Bubble",
+        "alias": "bouncybubble",
+        "type": "Water",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "51": {
+        "name": "Branch Poke",
+        "alias": "branchpoke",
+        "type": "Grass",
+        "basePower": 40,
+        "successChance": 85
+    },
+    "52": {
+        "name": "Brave Bird",
+        "alias": "bravebird",
+        "type": "Flying",
+        "basePower": 120,
+        "successChance": 5
+    },
+    "53": {
+        "name": "Breaking Swipe",
+        "alias": "breakingswipe",
+        "type": "Dragon",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "54": {
+        "name": "Breakneck Blitz",
+        "alias": "breakneckblitz",
+        "type": "Normal",
+        "basePower": 1,
+        "successChance": 100
+    },
+    "55": {
+        "name": "Brick Break",
+        "alias": "brickbreak",
+        "type": "Fighting",
+        "basePower": 75,
+        "successChance": 65
+    },
+    "56": {
+        "name": "Brine",
+        "alias": "brine",
+        "type": "Water",
+        "basePower": 65,
+        "successChance": 70
+    },
+    "57": {
+        "name": "Brutal Swing",
+        "alias": "brutalswing",
+        "type": "Dark",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "58": {
+        "name": "Bubble",
+        "alias": "bubble",
+        "type": "Water",
+        "basePower": 40,
+        "successChance": 85
+    },
+    "59": {
+        "name": "Bubble Beam",
+        "alias": "bubblebeam",
+        "type": "Water",
+        "basePower": 65,
+        "successChance": 70
+    },
+    "60": {
+        "name": "Bug Bite",
+        "alias": "bugbite",
+        "type": "Bug",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "61": {
+        "name": "Bug Buzz",
+        "alias": "bugbuzz",
+        "type": "Bug",
+        "basePower": 90,
+        "successChance": 60
+    },
+    "62": {
+        "name": "Bulldoze",
+        "alias": "bulldoze",
+        "type": "Ground",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "63": {
+        "name": "Bullet Punch",
+        "alias": "bulletpunch",
+        "type": "Steel",
+        "basePower": 40,
+        "successChance": 85
+    },
+    "64": {
+        "name": "Bullet Seed",
+        "alias": "bulletseed",
+        "type": "Grass",
+        "basePower": 25,
+        "successChance": 90
+    },
+    "65": {
+        "name": "Burning Jealousy",
+        "alias": "burningjealousy",
+        "type": "Fire",
+        "basePower": 70,
+        "successChance": 70
+    },
+    "66": {
+        "name": "Burn Up",
+        "alias": "burnup",
+        "type": "Fire",
+        "basePower": 130,
+        "successChance": 5
+    },
+    "67": {
+        "name": "Buzzy Buzz",
+        "alias": "buzzybuzz",
+        "type": "Electric",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "68": {
+        "name": "Catastropika",
+        "alias": "catastropika",
+        "type": "Electric",
+        "basePower": 210,
+        "successChance": 5
+    },
+    "69": {
+        "name": "Charge Beam",
+        "alias": "chargebeam",
+        "type": "Electric",
+        "basePower": 50,
+        "successChance": 80
+    },
+    "70": {
+        "name": "Chatter",
+        "alias": "chatter",
+        "type": "Flying",
+        "basePower": 65,
+        "successChance": 70
+    },
+    "71": {
+        "name": "Chip Away",
+        "alias": "chipaway",
+        "type": "Normal",
+        "basePower": 70,
+        "successChance": 70
+    },
+    "72": {
+        "name": "Circle Throw",
+        "alias": "circlethrow",
+        "type": "Fighting",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "73": {
+        "name": "Clamp",
+        "alias": "clamp",
+        "type": "Water",
+        "basePower": 35,
+        "successChance": 85
+    },
+    "74": {
+        "name": "Clanging Scales",
+        "alias": "clangingscales",
+        "type": "Dragon",
+        "basePower": 110,
+        "successChance": 5
+    },
+    "75": {
+        "name": "Clangorous Soulblaze",
+        "alias": "clangoroussoulblaze",
+        "type": "Dragon",
+        "basePower": 185,
+        "successChance": 5
+    },
+    "76": {
+        "name": "Clear Smog",
+        "alias": "clearsmog",
+        "type": "Poison",
+        "basePower": 50,
+        "successChance": 80
+    },
+    "77": {
+        "name": "Close Combat",
+        "alias": "closecombat",
+        "type": "Fighting",
+        "basePower": 120,
+        "successChance": 5
+    },
+    "78": {
+        "name": "Comet Punch",
+        "alias": "cometpunch",
+        "type": "Normal",
+        "basePower": 18,
+        "successChance": 95
+    },
+    "79": {
+        "name": "Confusion",
+        "alias": "confusion",
+        "type": "Psychic",
+        "basePower": 50,
+        "successChance": 80
+    },
+    "80": {
+        "name": "Constrict",
+        "alias": "constrict",
+        "type": "Normal",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "81": {
+        "name": "Continental Crush",
+        "alias": "continentalcrush",
+        "type": "Rock",
+        "basePower": 1,
+        "successChance": 100
+    },
+    "82": {
+        "name": "Core Enforcer",
+        "alias": "coreenforcer",
+        "type": "Dragon",
+        "basePower": 100,
+        "successChance": 55
+    },
+    "83": {
+        "name": "Corkscrew Crash",
+        "alias": "corkscrewcrash",
+        "type": "Steel",
+        "basePower": 1,
+        "successChance": 100
+    },
+    "84": {
+        "name": "Covet",
+        "alias": "covet",
+        "type": "Normal",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "85": {
+        "name": "Crabhammer",
+        "alias": "crabhammer",
+        "type": "Water",
+        "basePower": 100,
+        "successChance": 55
+    },
+    "86": {
+        "name": "Cross Chop",
+        "alias": "crosschop",
+        "type": "Fighting",
+        "basePower": 100,
+        "successChance": 55
+    },
+    "87": {
+        "name": "Cross Poison",
+        "alias": "crosspoison",
+        "type": "Poison",
+        "basePower": 70,
+        "successChance": 70
+    },
+    "88": {
+        "name": "Crunch",
+        "alias": "crunch",
+        "type": "Dark",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "89": {
+        "name": "Crush Claw",
+        "alias": "crushclaw",
+        "type": "Normal",
+        "basePower": 75,
+        "successChance": 65
+    },
+    "90": {
+        "name": "Cut",
+        "alias": "cut",
+        "type": "Normal",
+        "basePower": 50,
+        "successChance": 80
+    },
+    "91": {
+        "name": "Darkest Lariat",
+        "alias": "darkestlariat",
+        "type": "Dark",
+        "basePower": 85,
+        "successChance": 60
+    },
+    "92": {
+        "name": "Dark Pulse",
+        "alias": "darkpulse",
+        "type": "Dark",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "93": {
+        "name": "Dazzling Gleam",
+        "alias": "dazzlinggleam",
+        "type": "Fairy",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "94": {
+        "name": "Devastating Drake",
+        "alias": "devastatingdrake",
+        "type": "Dragon",
+        "basePower": 1,
+        "successChance": 100
+    },
+    "95": {
+        "name": "Diamond Storm",
+        "alias": "diamondstorm",
+        "type": "Rock",
+        "basePower": 100,
+        "successChance": 55
+    },
+    "96": {
+        "name": "Dig",
+        "alias": "dig",
+        "type": "Ground",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "97": {
+        "name": "Disarming Voice",
+        "alias": "disarmingvoice",
+        "type": "Fairy",
+        "basePower": 40,
+        "successChance": 85
+    },
+    "98": {
+        "name": "Discharge",
+        "alias": "discharge",
+        "type": "Electric",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "99": {
+        "name": "Dive",
+        "alias": "dive",
+        "type": "Water",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "100": {
+        "name": "Dizzy Punch",
+        "alias": "dizzypunch",
+        "type": "Normal",
+        "basePower": 70,
+        "successChance": 70
+    },
+    "101": {
+        "name": "Doom Desire",
+        "alias": "doomdesire",
+        "type": "Steel",
+        "basePower": 140,
+        "successChance": 5
+    },
+    "102": {
+        "name": "Double-Edge",
+        "alias": "doubleedge",
+        "type": "Normal",
+        "basePower": 120,
+        "successChance": 5
+    },
+    "103": {
+        "name": "Double Hit",
+        "alias": "doublehit",
+        "type": "Normal",
+        "basePower": 35,
+        "successChance": 85
+    },
+    "104": {
+        "name": "Double Iron Bash",
+        "alias": "doubleironbash",
+        "type": "Steel",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "105": {
+        "name": "Double Kick",
+        "alias": "doublekick",
+        "type": "Fighting",
+        "basePower": 30,
+        "successChance": 90
+    },
+    "106": {
+        "name": "Double Slap",
+        "alias": "doubleslap",
+        "type": "Normal",
+        "basePower": 15,
+        "successChance": 95
+    },
+    "107": {
+        "name": "Draco Meteor",
+        "alias": "dracometeor",
+        "type": "Dragon",
+        "basePower": 130,
+        "successChance": 5
+    },
+    "108": {
+        "name": "Dragon Ascent",
+        "alias": "dragonascent",
+        "type": "Flying",
+        "basePower": 120,
+        "successChance": 5
+    },
+    "109": {
+        "name": "Dragon Breath",
+        "alias": "dragonbreath",
+        "type": "Dragon",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "110": {
+        "name": "Dragon Claw",
+        "alias": "dragonclaw",
+        "type": "Dragon",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "111": {
+        "name": "Dragon Darts",
+        "alias": "dragondarts",
+        "type": "Dragon",
+        "basePower": 50,
+        "successChance": 80
+    },
+    "112": {
+        "name": "Dragon Energy",
+        "alias": "dragonenergy",
+        "type": "Dragon",
+        "basePower": 150,
+        "successChance": 5
+    },
+    "113": {
+        "name": "Dragon Hammer",
+        "alias": "dragonhammer",
+        "type": "Dragon",
+        "basePower": 90,
+        "successChance": 60
+    },
+    "114": {
+        "name": "Dragon Pulse",
+        "alias": "dragonpulse",
+        "type": "Dragon",
+        "basePower": 85,
+        "successChance": 60
+    },
+    "115": {
+        "name": "Dragon Rush",
+        "alias": "dragonrush",
+        "type": "Dragon",
+        "basePower": 100,
+        "successChance": 55
+    },
+    "116": {
+        "name": "Dragon Tail",
+        "alias": "dragontail",
+        "type": "Dragon",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "117": {
+        "name": "Draining Kiss",
+        "alias": "drainingkiss",
+        "type": "Fairy",
+        "basePower": 50,
+        "successChance": 80
+    },
+    "118": {
+        "name": "Drain Punch",
+        "alias": "drainpunch",
+        "type": "Fighting",
+        "basePower": 75,
+        "successChance": 65
+    },
+    "119": {
+        "name": "Dream Eater",
+        "alias": "dreameater",
+        "type": "Psychic",
+        "basePower": 100,
+        "successChance": 55
+    },
+    "120": {
+        "name": "Drill Peck",
+        "alias": "drillpeck",
+        "type": "Flying",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "121": {
+        "name": "Drill Run",
+        "alias": "drillrun",
+        "type": "Ground",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "122": {
+        "name": "Drum Beating",
+        "alias": "drumbeating",
+        "type": "Grass",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "123": {
+        "name": "Dual Chop",
+        "alias": "dualchop",
+        "type": "Dragon",
+        "basePower": 40,
+        "successChance": 85
+    },
+    "124": {
+        "name": "Dual Wingbeat",
+        "alias": "dualwingbeat",
+        "type": "Flying",
+        "basePower": 40,
+        "successChance": 85
+    },
+    "125": {
+        "name": "Dynamax Cannon",
+        "alias": "dynamaxcannon",
+        "type": "Dragon",
+        "basePower": 100,
+        "successChance": 55
+    },
+    "126": {
+        "name": "Dynamic Punch",
+        "alias": "dynamicpunch",
+        "type": "Fighting",
+        "basePower": 100,
+        "successChance": 55
+    },
+    "127": {
+        "name": "Earth Power",
+        "alias": "earthpower",
+        "type": "Ground",
+        "basePower": 90,
+        "successChance": 60
+    },
+    "128": {
+        "name": "Earthquake",
+        "alias": "earthquake",
+        "type": "Ground",
+        "basePower": 100,
+        "successChance": 55
+    },
+    "129": {
+        "name": "Echoed Voice",
+        "alias": "echoedvoice",
+        "type": "Normal",
+        "basePower": 40,
+        "successChance": 85
+    },
+    "130": {
+        "name": "Eerie Spell",
+        "alias": "eeriespell",
+        "type": "Psychic",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "131": {
+        "name": "Egg Bomb",
+        "alias": "eggbomb",
+        "type": "Normal",
+        "basePower": 100,
+        "successChance": 55
+    },
+    "132": {
+        "name": "Electroweb",
+        "alias": "electroweb",
+        "type": "Electric",
+        "basePower": 55,
+        "successChance": 75
+    },
+    "133": {
+        "name": "Ember",
+        "alias": "ember",
+        "type": "Fire",
+        "basePower": 40,
+        "successChance": 85
+    },
+    "134": {
+        "name": "Energy Ball",
+        "alias": "energyball",
+        "type": "Grass",
+        "basePower": 90,
+        "successChance": 60
+    },
+    "135": {
+        "name": "Eruption",
+        "alias": "eruption",
+        "type": "Fire",
+        "basePower": 150,
+        "successChance": 5
+    },
+    "136": {
+        "name": "Eternabeam",
+        "alias": "eternabeam",
+        "type": "Dragon",
+        "basePower": 160,
+        "successChance": 5
+    },
+    "137": {
+        "name": "Expanding Force",
+        "alias": "expandingforce",
+        "type": "Psychic",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "138": {
+        "name": "Explosion",
+        "alias": "explosion",
+        "type": "Normal",
+        "basePower": 250,
+        "successChance": 5
+    },
+    "139": {
+        "name": "Extrasensory",
+        "alias": "extrasensory",
+        "type": "Psychic",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "140": {
+        "name": "Extreme Speed",
+        "alias": "extremespeed",
+        "type": "Normal",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "141": {
+        "name": "Facade",
+        "alias": "facade",
+        "type": "Normal",
+        "basePower": 70,
+        "successChance": 70
+    },
+    "142": {
+        "name": "Fairy Wind",
+        "alias": "fairywind",
+        "type": "Fairy",
+        "basePower": 40,
+        "successChance": 85
+    },
+    "143": {
+        "name": "Fake Out",
+        "alias": "fakeout",
+        "type": "Normal",
+        "basePower": 40,
+        "successChance": 85
+    },
+    "144": {
+        "name": "False Surrender",
+        "alias": "falsesurrender",
+        "type": "Dark",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "145": {
+        "name": "False Swipe",
+        "alias": "falseswipe",
+        "type": "Normal",
+        "basePower": 40,
+        "successChance": 85
+    },
+    "146": {
+        "name": "Feint",
+        "alias": "feint",
+        "type": "Normal",
+        "basePower": 30,
+        "successChance": 90
+    },
+    "147": {
+        "name": "Feint Attack",
+        "alias": "feintattack",
+        "type": "Dark",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "148": {
+        "name": "Fell Stinger",
+        "alias": "fellstinger",
+        "type": "Bug",
+        "basePower": 50,
+        "successChance": 80
+    },
+    "149": {
+        "name": "Fiery Dance",
+        "alias": "fierydance",
+        "type": "Fire",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "150": {
+        "name": "Fiery Wrath",
+        "alias": "fierywrath",
+        "type": "Dark",
+        "basePower": 90,
+        "successChance": 60
+    },
+    "151": {
+        "name": "Fire Blast",
+        "alias": "fireblast",
+        "type": "Fire",
+        "basePower": 110,
+        "successChance": 5
+    },
+    "152": {
+        "name": "Fire Fang",
+        "alias": "firefang",
+        "type": "Fire",
+        "basePower": 65,
+        "successChance": 70
+    },
+    "153": {
+        "name": "Fire Lash",
+        "alias": "firelash",
+        "type": "Fire",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "154": {
+        "name": "Fire Pledge",
+        "alias": "firepledge",
+        "type": "Fire",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "155": {
+        "name": "Fire Punch",
+        "alias": "firepunch",
+        "type": "Fire",
+        "basePower": 75,
+        "successChance": 65
+    },
+    "156": {
+        "name": "Fire Spin",
+        "alias": "firespin",
+        "type": "Fire",
+        "basePower": 35,
+        "successChance": 85
+    },
+    "157": {
+        "name": "First Impression",
+        "alias": "firstimpression",
+        "type": "Bug",
+        "basePower": 90,
+        "successChance": 60
+    },
+    "158": {
+        "name": "Fishious Rend",
+        "alias": "fishiousrend",
+        "type": "Water",
+        "basePower": 85,
+        "successChance": 60
+    },
+    "159": {
+        "name": "Flame Burst",
+        "alias": "flameburst",
+        "type": "Fire",
+        "basePower": 70,
+        "successChance": 70
+    },
+    "160": {
+        "name": "Flame Charge",
+        "alias": "flamecharge",
+        "type": "Fire",
+        "basePower": 50,
+        "successChance": 80
+    },
+    "161": {
+        "name": "Flame Wheel",
+        "alias": "flamewheel",
+        "type": "Fire",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "162": {
+        "name": "Flamethrower",
+        "alias": "flamethrower",
+        "type": "Fire",
+        "basePower": 90,
+        "successChance": 60
+    },
+    "163": {
+        "name": "Flare Blitz",
+        "alias": "flareblitz",
+        "type": "Fire",
+        "basePower": 120,
+        "successChance": 5
+    },
+    "164": {
+        "name": "Flash Cannon",
+        "alias": "flashcannon",
+        "type": "Steel",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "165": {
+        "name": "Fleur Cannon",
+        "alias": "fleurcannon",
+        "type": "Fairy",
+        "basePower": 130,
+        "successChance": 5
+    },
+    "166": {
+        "name": "Flip Turn",
+        "alias": "flipturn",
+        "type": "Water",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "167": {
+        "name": "Floaty Fall",
+        "alias": "floatyfall",
+        "type": "Flying",
+        "basePower": 90,
+        "successChance": 60
+    },
+    "168": {
+        "name": "Fly",
+        "alias": "fly",
+        "type": "Flying",
+        "basePower": 90,
+        "successChance": 60
+    },
+    "169": {
+        "name": "Flying Press",
+        "alias": "flyingpress",
+        "type": "Fighting",
+        "basePower": 100,
+        "successChance": 55
+    },
+    "170": {
+        "name": "Focus Blast",
+        "alias": "focusblast",
+        "type": "Fighting",
+        "basePower": 120,
+        "successChance": 5
+    },
+    "171": {
+        "name": "Focus Punch",
+        "alias": "focuspunch",
+        "type": "Fighting",
+        "basePower": 150,
+        "successChance": 5
+    },
+    "172": {
+        "name": "Force Palm",
+        "alias": "forcepalm",
+        "type": "Fighting",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "173": {
+        "name": "Foul Play",
+        "alias": "foulplay",
+        "type": "Dark",
+        "basePower": 95,
+        "successChance": 55
+    },
+    "174": {
+        "name": "Freeze-Dry",
+        "alias": "freezedry",
+        "type": "Ice",
+        "basePower": 70,
+        "successChance": 70
+    },
+    "175": {
+        "name": "Freeze Shock",
+        "alias": "freezeshock",
+        "type": "Ice",
+        "basePower": 140,
+        "successChance": 5
+    },
+    "176": {
+        "name": "Freezing Glare",
+        "alias": "freezingglare",
+        "type": "Psychic",
+        "basePower": 90,
+        "successChance": 60
+    },
+    "177": {
+        "name": "Freezy Frost",
+        "alias": "freezyfrost",
+        "type": "Ice",
+        "basePower": 100,
+        "successChance": 55
+    },
+    "178": {
+        "name": "Frenzy Plant",
+        "alias": "frenzyplant",
+        "type": "Grass",
+        "basePower": 150,
+        "successChance": 5
+    },
+    "179": {
+        "name": "Frost Breath",
+        "alias": "frostbreath",
+        "type": "Ice",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "180": {
+        "name": "Fury Attack",
+        "alias": "furyattack",
+        "type": "Normal",
+        "basePower": 15,
+        "successChance": 95
+    },
+    "181": {
+        "name": "Fury Cutter",
+        "alias": "furycutter",
+        "type": "Bug",
+        "basePower": 40,
+        "successChance": 85
+    },
+    "182": {
+        "name": "Fury Swipes",
+        "alias": "furyswipes",
+        "type": "Normal",
+        "basePower": 18,
+        "successChance": 95
+    },
+    "183": {
+        "name": "Fusion Bolt",
+        "alias": "fusionbolt",
+        "type": "Electric",
+        "basePower": 100,
+        "successChance": 55
+    },
+    "184": {
+        "name": "Fusion Flare",
+        "alias": "fusionflare",
+        "type": "Fire",
+        "basePower": 100,
+        "successChance": 55
+    },
+    "185": {
+        "name": "Future Sight",
+        "alias": "futuresight",
+        "type": "Psychic",
+        "basePower": 120,
+        "successChance": 5
+    },
+    "186": {
+        "name": "Gear Grind",
+        "alias": "geargrind",
+        "type": "Steel",
+        "basePower": 50,
+        "successChance": 80
+    },
+    "187": {
+        "name": "Genesis Supernova",
+        "alias": "genesissupernova",
+        "type": "Psychic",
+        "basePower": 185,
+        "successChance": 5
+    },
+    "188": {
+        "name": "Giga Drain",
+        "alias": "gigadrain",
+        "type": "Grass",
+        "basePower": 75,
+        "successChance": 65
+    },
+    "189": {
+        "name": "Giga Impact",
+        "alias": "gigaimpact",
+        "type": "Normal",
+        "basePower": 150,
+        "successChance": 5
+    },
+    "190": {
+        "name": "Gigavolt Havoc",
+        "alias": "gigavolthavoc",
+        "type": "Electric",
+        "basePower": 1,
+        "successChance": 100
+    },
+    "191": {
+        "name": "Glacial Lance",
+        "alias": "glaciallance",
+        "type": "Ice",
+        "basePower": 130,
+        "successChance": 5
+    },
+    "192": {
+        "name": "Glaciate",
+        "alias": "glaciate",
+        "type": "Ice",
+        "basePower": 65,
+        "successChance": 70
+    },
+    "193": {
+        "name": "Glitzy Glow",
+        "alias": "glitzyglow",
+        "type": "Psychic",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "194": {
+        "name": "G-Max Befuddle",
+        "alias": "gmaxbefuddle",
+        "type": "Bug",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "195": {
+        "name": "G-Max Cannonade",
+        "alias": "gmaxcannonade",
+        "type": "Water",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "196": {
+        "name": "G-Max Centiferno",
+        "alias": "gmaxcentiferno",
+        "type": "Fire",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "197": {
+        "name": "G-Max Chi Strike",
+        "alias": "gmaxchistrike",
+        "type": "Fighting",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "198": {
+        "name": "G-Max Cuddle",
+        "alias": "gmaxcuddle",
+        "type": "Normal",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "199": {
+        "name": "G-Max Depletion",
+        "alias": "gmaxdepletion",
+        "type": "Dragon",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "200": {
+        "name": "G-Max Drum Solo",
+        "alias": "gmaxdrumsolo",
+        "type": "Grass",
+        "basePower": 160,
+        "successChance": 5
+    },
+    "201": {
+        "name": "G-Max Finale",
+        "alias": "gmaxfinale",
+        "type": "Fairy",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "202": {
+        "name": "G-Max Fireball",
+        "alias": "gmaxfireball",
+        "type": "Fire",
+        "basePower": 160,
+        "successChance": 5
+    },
+    "203": {
+        "name": "G-Max Foam Burst",
+        "alias": "gmaxfoamburst",
+        "type": "Water",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "204": {
+        "name": "G-Max Gold Rush",
+        "alias": "gmaxgoldrush",
+        "type": "Normal",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "205": {
+        "name": "G-Max Gravitas",
+        "alias": "gmaxgravitas",
+        "type": "Psychic",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "206": {
+        "name": "G-Max Hydrosnipe",
+        "alias": "gmaxhydrosnipe",
+        "type": "Water",
+        "basePower": 160,
+        "successChance": 5
+    },
+    "207": {
+        "name": "G-Max Malodor",
+        "alias": "gmaxmalodor",
+        "type": "Poison",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "208": {
+        "name": "G-Max Meltdown",
+        "alias": "gmaxmeltdown",
+        "type": "Steel",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "209": {
+        "name": "G-Max One Blow",
+        "alias": "gmaxoneblow",
+        "type": "Dark",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "210": {
+        "name": "G-Max Rapid Flow",
+        "alias": "gmaxrapidflow",
+        "type": "Water",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "211": {
+        "name": "G-Max Replenish",
+        "alias": "gmaxreplenish",
+        "type": "Normal",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "212": {
+        "name": "G-Max Resonance",
+        "alias": "gmaxresonance",
+        "type": "Ice",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "213": {
+        "name": "G-Max Sandblast",
+        "alias": "gmaxsandblast",
+        "type": "Ground",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "214": {
+        "name": "G-Max Smite",
+        "alias": "gmaxsmite",
+        "type": "Fairy",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "215": {
+        "name": "G-Max Snooze",
+        "alias": "gmaxsnooze",
+        "type": "Dark",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "216": {
+        "name": "G-Max Steelsurge",
+        "alias": "gmaxsteelsurge",
+        "type": "Steel",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "217": {
+        "name": "G-Max Stonesurge",
+        "alias": "gmaxstonesurge",
+        "type": "Water",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "218": {
+        "name": "G-Max Stun Shock",
+        "alias": "gmaxstunshock",
+        "type": "Electric",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "219": {
+        "name": "G-Max Sweetness",
+        "alias": "gmaxsweetness",
+        "type": "Grass",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "220": {
+        "name": "G-Max Tartness",
+        "alias": "gmaxtartness",
+        "type": "Grass",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "221": {
+        "name": "G-Max Terror",
+        "alias": "gmaxterror",
+        "type": "Ghost",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "222": {
+        "name": "G-Max Vine Lash",
+        "alias": "gmaxvinelash",
+        "type": "Grass",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "223": {
+        "name": "G-Max Volcalith",
+        "alias": "gmaxvolcalith",
+        "type": "Rock",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "224": {
+        "name": "G-Max Volt Crash",
+        "alias": "gmaxvoltcrash",
+        "type": "Electric",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "225": {
+        "name": "G-Max Wildfire",
+        "alias": "gmaxwildfire",
+        "type": "Fire",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "226": {
+        "name": "G-Max Wind Rage",
+        "alias": "gmaxwindrage",
+        "type": "Flying",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "227": {
+        "name": "Grass Pledge",
+        "alias": "grasspledge",
+        "type": "Grass",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "228": {
+        "name": "Grassy Glide",
+        "alias": "grassyglide",
+        "type": "Grass",
+        "basePower": 70,
+        "successChance": 70
+    },
+    "229": {
+        "name": "Grav Apple",
+        "alias": "gravapple",
+        "type": "Grass",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "230": {
+        "name": "Gunk Shot",
+        "alias": "gunkshot",
+        "type": "Poison",
+        "basePower": 120,
+        "successChance": 5
+    },
+    "231": {
+        "name": "Gust",
+        "alias": "gust",
+        "type": "Flying",
+        "basePower": 40,
+        "successChance": 85
+    },
+    "232": {
+        "name": "Hammer Arm",
+        "alias": "hammerarm",
+        "type": "Fighting",
+        "basePower": 100,
+        "successChance": 55
+    },
+    "233": {
+        "name": "Headbutt",
+        "alias": "headbutt",
+        "type": "Normal",
+        "basePower": 70,
+        "successChance": 70
+    },
+    "234": {
+        "name": "Head Charge",
+        "alias": "headcharge",
+        "type": "Normal",
+        "basePower": 120,
+        "successChance": 5
+    },
+    "235": {
+        "name": "Head Smash",
+        "alias": "headsmash",
+        "type": "Rock",
+        "basePower": 150,
+        "successChance": 5
+    },
+    "236": {
+        "name": "Heart Stamp",
+        "alias": "heartstamp",
+        "type": "Psychic",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "237": {
+        "name": "Heat Wave",
+        "alias": "heatwave",
+        "type": "Fire",
+        "basePower": 95,
+        "successChance": 55
+    },
+    "238": {
+        "name": "Hex",
+        "alias": "hex",
+        "type": "Ghost",
+        "basePower": 65,
+        "successChance": 70
+    },
+    "239": {
+        "name": "Hidden Power",
+        "alias": "hiddenpower",
+        "type": "Normal",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "240": {
+        "name": "Hidden Power Bug",
+        "alias": "hiddenpowerbug",
+        "type": "Bug",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "241": {
+        "name": "Hidden Power Dark",
+        "alias": "hiddenpowerdark",
+        "type": "Dark",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "242": {
+        "name": "Hidden Power Dragon",
+        "alias": "hiddenpowerdragon",
+        "type": "Dragon",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "243": {
+        "name": "Hidden Power Electric",
+        "alias": "hiddenpowerelectric",
+        "type": "Electric",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "244": {
+        "name": "Hidden Power Fighting",
+        "alias": "hiddenpowerfighting",
+        "type": "Fighting",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "245": {
+        "name": "Hidden Power Fire",
+        "alias": "hiddenpowerfire",
+        "type": "Fire",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "246": {
+        "name": "Hidden Power Flying",
+        "alias": "hiddenpowerflying",
+        "type": "Flying",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "247": {
+        "name": "Hidden Power Ghost",
+        "alias": "hiddenpowerghost",
+        "type": "Ghost",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "248": {
+        "name": "Hidden Power Grass",
+        "alias": "hiddenpowergrass",
+        "type": "Grass",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "249": {
+        "name": "Hidden Power Ground",
+        "alias": "hiddenpowerground",
+        "type": "Ground",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "250": {
+        "name": "Hidden Power Ice",
+        "alias": "hiddenpowerice",
+        "type": "Ice",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "251": {
+        "name": "Hidden Power Poison",
+        "alias": "hiddenpowerpoison",
+        "type": "Poison",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "252": {
+        "name": "Hidden Power Psychic",
+        "alias": "hiddenpowerpsychic",
+        "type": "Psychic",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "253": {
+        "name": "Hidden Power Rock",
+        "alias": "hiddenpowerrock",
+        "type": "Rock",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "254": {
+        "name": "Hidden Power Steel",
+        "alias": "hiddenpowersteel",
+        "type": "Steel",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "255": {
+        "name": "Hidden Power Water",
+        "alias": "hiddenpowerwater",
+        "type": "Water",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "256": {
+        "name": "High Horsepower",
+        "alias": "highhorsepower",
+        "type": "Ground",
+        "basePower": 95,
+        "successChance": 55
+    },
+    "257": {
+        "name": "High Jump Kick",
+        "alias": "highjumpkick",
+        "type": "Fighting",
+        "basePower": 130,
+        "successChance": 5
+    },
+    "258": {
+        "name": "Hold Back",
+        "alias": "holdback",
+        "type": "Normal",
+        "basePower": 40,
+        "successChance": 85
+    },
+    "259": {
+        "name": "Horn Attack",
+        "alias": "hornattack",
+        "type": "Normal",
+        "basePower": 65,
+        "successChance": 70
+    },
+    "260": {
+        "name": "Horn Leech",
+        "alias": "hornleech",
+        "type": "Grass",
+        "basePower": 75,
+        "successChance": 65
+    },
+    "261": {
+        "name": "Hurricane",
+        "alias": "hurricane",
+        "type": "Flying",
+        "basePower": 110,
+        "successChance": 5
+    },
+    "262": {
+        "name": "Hydro Cannon",
+        "alias": "hydrocannon",
+        "type": "Water",
+        "basePower": 150,
+        "successChance": 5
+    },
+    "263": {
+        "name": "Hydro Pump",
+        "alias": "hydropump",
+        "type": "Water",
+        "basePower": 110,
+        "successChance": 5
+    },
+    "264": {
+        "name": "Hydro Vortex",
+        "alias": "hydrovortex",
+        "type": "Water",
+        "basePower": 1,
+        "successChance": 100
+    },
+    "265": {
+        "name": "Hyper Beam",
+        "alias": "hyperbeam",
+        "type": "Normal",
+        "basePower": 150,
+        "successChance": 5
+    },
+    "266": {
+        "name": "Hyper Fang",
+        "alias": "hyperfang",
+        "type": "Normal",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "267": {
+        "name": "Hyperspace Fury",
+        "alias": "hyperspacefury",
+        "type": "Dark",
+        "basePower": 100,
+        "successChance": 55
+    },
+    "268": {
+        "name": "Hyperspace Hole",
+        "alias": "hyperspacehole",
+        "type": "Psychic",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "269": {
+        "name": "Hyper Voice",
+        "alias": "hypervoice",
+        "type": "Normal",
+        "basePower": 90,
+        "successChance": 60
+    },
+    "270": {
+        "name": "Ice Ball",
+        "alias": "iceball",
+        "type": "Ice",
+        "basePower": 30,
+        "successChance": 90
+    },
+    "271": {
+        "name": "Ice Beam",
+        "alias": "icebeam",
+        "type": "Ice",
+        "basePower": 90,
+        "successChance": 60
+    },
+    "272": {
+        "name": "Ice Burn",
+        "alias": "iceburn",
+        "type": "Ice",
+        "basePower": 140,
+        "successChance": 5
+    },
+    "273": {
+        "name": "Ice Fang",
+        "alias": "icefang",
+        "type": "Ice",
+        "basePower": 65,
+        "successChance": 70
+    },
+    "274": {
+        "name": "Ice Hammer",
+        "alias": "icehammer",
+        "type": "Ice",
+        "basePower": 100,
+        "successChance": 55
+    },
+    "275": {
+        "name": "Ice Punch",
+        "alias": "icepunch",
+        "type": "Ice",
+        "basePower": 75,
+        "successChance": 65
+    },
+    "276": {
+        "name": "Ice Shard",
+        "alias": "iceshard",
+        "type": "Ice",
+        "basePower": 40,
+        "successChance": 85
+    },
+    "277": {
+        "name": "Icicle Crash",
+        "alias": "iciclecrash",
+        "type": "Ice",
+        "basePower": 85,
+        "successChance": 60
+    },
+    "278": {
+        "name": "Icicle Spear",
+        "alias": "iciclespear",
+        "type": "Ice",
+        "basePower": 25,
+        "successChance": 90
+    },
+    "279": {
+        "name": "Icy Wind",
+        "alias": "icywind",
+        "type": "Ice",
+        "basePower": 55,
+        "successChance": 75
+    },
+    "280": {
+        "name": "Incinerate",
+        "alias": "incinerate",
+        "type": "Fire",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "281": {
+        "name": "Inferno",
+        "alias": "inferno",
+        "type": "Fire",
+        "basePower": 100,
+        "successChance": 55
+    },
+    "282": {
+        "name": "Inferno Overdrive",
+        "alias": "infernooverdrive",
+        "type": "Fire",
+        "basePower": 1,
+        "successChance": 100
+    },
+    "283": {
+        "name": "Infestation",
+        "alias": "infestation",
+        "type": "Bug",
+        "basePower": 20,
+        "successChance": 95
+    },
+    "284": {
+        "name": "Iron Head",
+        "alias": "ironhead",
+        "type": "Steel",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "285": {
+        "name": "Iron Tail",
+        "alias": "irontail",
+        "type": "Steel",
+        "basePower": 100,
+        "successChance": 55
+    },
+    "286": {
+        "name": "Jaw Lock",
+        "alias": "jawlock",
+        "type": "Dark",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "287": {
+        "name": "Judgment",
+        "alias": "judgment",
+        "type": "Normal",
+        "basePower": 100,
+        "successChance": 55
+    },
+    "288": {
+        "name": "Jump Kick",
+        "alias": "jumpkick",
+        "type": "Fighting",
+        "basePower": 100,
+        "successChance": 55
+    },
+    "289": {
+        "name": "Karate Chop",
+        "alias": "karatechop",
+        "type": "Fighting",
+        "basePower": 50,
+        "successChance": 80
+    },
+    "290": {
+        "name": "Knock Off",
+        "alias": "knockoff",
+        "type": "Dark",
+        "basePower": 65,
+        "successChance": 70
+    },
+    "291": {
+        "name": "Land's Wrath",
+        "alias": "landswrath",
+        "type": "Ground",
+        "basePower": 90,
+        "successChance": 60
+    },
+    "292": {
+        "name": "Lash Out",
+        "alias": "lashout",
+        "type": "Dark",
+        "basePower": 75,
+        "successChance": 65
+    },
+    "293": {
+        "name": "Last Resort",
+        "alias": "lastresort",
+        "type": "Normal",
+        "basePower": 140,
+        "successChance": 5
+    },
+    "294": {
+        "name": "Lava Plume",
+        "alias": "lavaplume",
+        "type": "Fire",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "295": {
+        "name": "Leafage",
+        "alias": "leafage",
+        "type": "Grass",
+        "basePower": 40,
+        "successChance": 85
+    },
+    "296": {
+        "name": "Leaf Blade",
+        "alias": "leafblade",
+        "type": "Grass",
+        "basePower": 90,
+        "successChance": 60
+    },
+    "297": {
+        "name": "Leaf Storm",
+        "alias": "leafstorm",
+        "type": "Grass",
+        "basePower": 130,
+        "successChance": 5
+    },
+    "298": {
+        "name": "Leaf Tornado",
+        "alias": "leaftornado",
+        "type": "Grass",
+        "basePower": 65,
+        "successChance": 70
+    },
+    "299": {
+        "name": "Leech Life",
+        "alias": "leechlife",
+        "type": "Bug",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "300": {
+        "name": "Let's Snuggle Forever",
+        "alias": "letssnuggleforever",
+        "type": "Fairy",
+        "basePower": 190,
+        "successChance": 5
+    },
+    "301": {
+        "name": "Lick",
+        "alias": "lick",
+        "type": "Ghost",
+        "basePower": 30,
+        "successChance": 90
+    },
+    "302": {
+        "name": "Light of Ruin",
+        "alias": "lightofruin",
+        "type": "Fairy",
+        "basePower": 140,
+        "successChance": 5
+    },
+    "303": {
+        "name": "Light That Burns the Sky",
+        "alias": "lightthatburnsthesky",
+        "type": "Psychic",
+        "basePower": 200,
+        "successChance": 5
+    },
+    "304": {
+        "name": "Liquidation",
+        "alias": "liquidation",
+        "type": "Water",
+        "basePower": 85,
+        "successChance": 60
+    },
+    "305": {
+        "name": "Low Sweep",
+        "alias": "lowsweep",
+        "type": "Fighting",
+        "basePower": 65,
+        "successChance": 70
+    },
+    "306": {
+        "name": "Lunge",
+        "alias": "lunge",
+        "type": "Bug",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "307": {
+        "name": "Luster Purge",
+        "alias": "lusterpurge",
+        "type": "Psychic",
+        "basePower": 70,
+        "successChance": 70
+    },
+    "308": {
+        "name": "Mach Punch",
+        "alias": "machpunch",
+        "type": "Fighting",
+        "basePower": 40,
+        "successChance": 85
+    },
+    "309": {
+        "name": "Magical Leaf",
+        "alias": "magicalleaf",
+        "type": "Grass",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "310": {
+        "name": "Magma Storm",
+        "alias": "magmastorm",
+        "type": "Fire",
+        "basePower": 100,
+        "successChance": 55
+    },
+    "311": {
+        "name": "Magnet Bomb",
+        "alias": "magnetbomb",
+        "type": "Steel",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "312": {
+        "name": "Malicious Moonsault",
+        "alias": "maliciousmoonsault",
+        "type": "Dark",
+        "basePower": 180,
+        "successChance": 5
+    },
+    "313": {
+        "name": "Max Airstream",
+        "alias": "maxairstream",
+        "type": "Flying",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "314": {
+        "name": "Max Darkness",
+        "alias": "maxdarkness",
+        "type": "Dark",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "315": {
+        "name": "Max Flare",
+        "alias": "maxflare",
+        "type": "Fire",
+        "basePower": 100,
+        "successChance": 55
+    },
+    "316": {
+        "name": "Max Flutterby",
+        "alias": "maxflutterby",
+        "type": "Bug",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "317": {
+        "name": "Max Geyser",
+        "alias": "maxgeyser",
+        "type": "Water",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "318": {
+        "name": "Max Hailstorm",
+        "alias": "maxhailstorm",
+        "type": "Ice",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "319": {
+        "name": "Max Knuckle",
+        "alias": "maxknuckle",
+        "type": "Fighting",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "320": {
+        "name": "Max Lightning",
+        "alias": "maxlightning",
+        "type": "Electric",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "321": {
+        "name": "Max Mindstorm",
+        "alias": "maxmindstorm",
+        "type": "Psychic",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "322": {
+        "name": "Max Ooze",
+        "alias": "maxooze",
+        "type": "Poison",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "323": {
+        "name": "Max Overgrowth",
+        "alias": "maxovergrowth",
+        "type": "Grass",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "324": {
+        "name": "Max Phantasm",
+        "alias": "maxphantasm",
+        "type": "Ghost",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "325": {
+        "name": "Max Quake",
+        "alias": "maxquake",
+        "type": "Ground",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "326": {
+        "name": "Max Rockfall",
+        "alias": "maxrockfall",
+        "type": "Rock",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "327": {
+        "name": "Max Starfall",
+        "alias": "maxstarfall",
+        "type": "Fairy",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "328": {
+        "name": "Max Steelspike",
+        "alias": "maxsteelspike",
+        "type": "Steel",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "329": {
+        "name": "Max Strike",
+        "alias": "maxstrike",
+        "type": "Normal",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "330": {
+        "name": "Max Wyrmwind",
+        "alias": "maxwyrmwind",
+        "type": "Dragon",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "331": {
+        "name": "Mega Drain",
+        "alias": "megadrain",
+        "type": "Grass",
+        "basePower": 40,
+        "successChance": 85
+    },
+    "332": {
+        "name": "Megahorn",
+        "alias": "megahorn",
+        "type": "Bug",
+        "basePower": 120,
+        "successChance": 5
+    },
+    "333": {
+        "name": "Mega Kick",
+        "alias": "megakick",
+        "type": "Normal",
+        "basePower": 120,
+        "successChance": 5
+    },
+    "334": {
+        "name": "Mega Punch",
+        "alias": "megapunch",
+        "type": "Normal",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "335": {
+        "name": "Menacing Moonraze Maelstrom",
+        "alias": "menacingmoonrazemaelstrom",
+        "type": "Ghost",
+        "basePower": 200,
+        "successChance": 5
+    },
+    "336": {
+        "name": "Metal Claw",
+        "alias": "metalclaw",
+        "type": "Steel",
+        "basePower": 50,
+        "successChance": 80
+    },
+    "337": {
+        "name": "Meteor Assault",
+        "alias": "meteorassault",
+        "type": "Fighting",
+        "basePower": 150,
+        "successChance": 5
+    },
+    "338": {
+        "name": "Meteor Beam",
+        "alias": "meteorbeam",
+        "type": "Rock",
+        "basePower": 120,
+        "successChance": 5
+    },
+    "339": {
+        "name": "Meteor Mash",
+        "alias": "meteormash",
+        "type": "Steel",
+        "basePower": 90,
+        "successChance": 60
+    },
+    "340": {
+        "name": "Mind Blown",
+        "alias": "mindblown",
+        "type": "Fire",
+        "basePower": 150,
+        "successChance": 5
+    },
+    "341": {
+        "name": "Mirror Shot",
+        "alias": "mirrorshot",
+        "type": "Steel",
+        "basePower": 65,
+        "successChance": 70
+    },
+    "342": {
+        "name": "Mist Ball",
+        "alias": "mistball",
+        "type": "Psychic",
+        "basePower": 70,
+        "successChance": 70
+    },
+    "343": {
+        "name": "Misty Explosion",
+        "alias": "mistyexplosion",
+        "type": "Fairy",
+        "basePower": 100,
+        "successChance": 55
+    },
+    "344": {
+        "name": "Moonblast",
+        "alias": "moonblast",
+        "type": "Fairy",
+        "basePower": 95,
+        "successChance": 55
+    },
+    "345": {
+        "name": "Moongeist Beam",
+        "alias": "moongeistbeam",
+        "type": "Ghost",
+        "basePower": 100,
+        "successChance": 55
+    },
+    "346": {
+        "name": "Mud Bomb",
+        "alias": "mudbomb",
+        "type": "Ground",
+        "basePower": 65,
+        "successChance": 70
+    },
+    "347": {
+        "name": "Mud Shot",
+        "alias": "mudshot",
+        "type": "Ground",
+        "basePower": 55,
+        "successChance": 75
+    },
+    "348": {
+        "name": "Mud-Slap",
+        "alias": "mudslap",
+        "type": "Ground",
+        "basePower": 20,
+        "successChance": 95
+    },
+    "349": {
+        "name": "Muddy Water",
+        "alias": "muddywater",
+        "type": "Water",
+        "basePower": 90,
+        "successChance": 60
+    },
+    "350": {
+        "name": "Multi-Attack",
+        "alias": "multiattack",
+        "type": "Normal",
+        "basePower": 120,
+        "successChance": 5
+    },
+    "351": {
+        "name": "Mystical Fire",
+        "alias": "mysticalfire",
+        "type": "Fire",
+        "basePower": 75,
+        "successChance": 65
+    },
+    "352": {
+        "name": "Needle Arm",
+        "alias": "needlearm",
+        "type": "Grass",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "353": {
+        "name": "Never-Ending Nightmare",
+        "alias": "neverendingnightmare",
+        "type": "Ghost",
+        "basePower": 1,
+        "successChance": 100
+    },
+    "354": {
+        "name": "Night Daze",
+        "alias": "nightdaze",
+        "type": "Dark",
+        "basePower": 85,
+        "successChance": 60
+    },
+    "355": {
+        "name": "Night Slash",
+        "alias": "nightslash",
+        "type": "Dark",
+        "basePower": 70,
+        "successChance": 70
+    },
+    "356": {
+        "name": "Nuzzle",
+        "alias": "nuzzle",
+        "type": "Electric",
+        "basePower": 20,
+        "successChance": 95
+    },
+    "357": {
+        "name": "Oblivion Wing",
+        "alias": "oblivionwing",
+        "type": "Flying",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "358": {
+        "name": "Oceanic Operetta",
+        "alias": "oceanicoperetta",
+        "type": "Water",
+        "basePower": 195,
+        "successChance": 5
+    },
+    "359": {
+        "name": "Octazooka",
+        "alias": "octazooka",
+        "type": "Water",
+        "basePower": 65,
+        "successChance": 70
+    },
+    "360": {
+        "name": "Ominous Wind",
+        "alias": "ominouswind",
+        "type": "Ghost",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "361": {
+        "name": "Origin Pulse",
+        "alias": "originpulse",
+        "type": "Water",
+        "basePower": 110,
+        "successChance": 5
+    },
+    "362": {
+        "name": "Outrage",
+        "alias": "outrage",
+        "type": "Dragon",
+        "basePower": 120,
+        "successChance": 5
+    },
+    "363": {
+        "name": "Overdrive",
+        "alias": "overdrive",
+        "type": "Electric",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "364": {
+        "name": "Overheat",
+        "alias": "overheat",
+        "type": "Fire",
+        "basePower": 130,
+        "successChance": 5
+    },
+    "365": {
+        "name": "Parabolic Charge",
+        "alias": "paraboliccharge",
+        "type": "Electric",
+        "basePower": 65,
+        "successChance": 70
+    },
+    "366": {
+        "name": "Payback",
+        "alias": "payback",
+        "type": "Dark",
+        "basePower": 50,
+        "successChance": 80
+    },
+    "367": {
+        "name": "Pay Day",
+        "alias": "payday",
+        "type": "Normal",
+        "basePower": 40,
+        "successChance": 85
+    },
+    "368": {
+        "name": "Peck",
+        "alias": "peck",
+        "type": "Flying",
+        "basePower": 35,
+        "successChance": 85
+    },
+    "369": {
+        "name": "Petal Blizzard",
+        "alias": "petalblizzard",
+        "type": "Grass",
+        "basePower": 90,
+        "successChance": 60
+    },
+    "370": {
+        "name": "Petal Dance",
+        "alias": "petaldance",
+        "type": "Grass",
+        "basePower": 120,
+        "successChance": 5
+    },
+    "371": {
+        "name": "Phantom Force",
+        "alias": "phantomforce",
+        "type": "Ghost",
+        "basePower": 90,
+        "successChance": 60
+    },
+    "372": {
+        "name": "Photon Geyser",
+        "alias": "photongeyser",
+        "type": "Psychic",
+        "basePower": 100,
+        "successChance": 55
+    },
+    "373": {
+        "name": "Pin Missile",
+        "alias": "pinmissile",
+        "type": "Bug",
+        "basePower": 25,
+        "successChance": 90
+    },
+    "374": {
+        "name": "Plasma Fists",
+        "alias": "plasmafists",
+        "type": "Electric",
+        "basePower": 100,
+        "successChance": 55
+    },
+    "375": {
+        "name": "Play Rough",
+        "alias": "playrough",
+        "type": "Fairy",
+        "basePower": 90,
+        "successChance": 60
+    },
+    "376": {
+        "name": "Pluck",
+        "alias": "pluck",
+        "type": "Flying",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "377": {
+        "name": "Poison Fang",
+        "alias": "poisonfang",
+        "type": "Poison",
+        "basePower": 50,
+        "successChance": 80
+    },
+    "378": {
+        "name": "Poison Jab",
+        "alias": "poisonjab",
+        "type": "Poison",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "379": {
+        "name": "Poison Sting",
+        "alias": "poisonsting",
+        "type": "Poison",
+        "basePower": 15,
+        "successChance": 95
+    },
+    "380": {
+        "name": "Poison Tail",
+        "alias": "poisontail",
+        "type": "Poison",
+        "basePower": 50,
+        "successChance": 80
+    },
+    "381": {
+        "name": "Pollen Puff",
+        "alias": "pollenpuff",
+        "type": "Bug",
+        "basePower": 90,
+        "successChance": 60
+    },
+    "382": {
+        "name": "Poltergeist",
+        "alias": "poltergeist",
+        "type": "Ghost",
+        "basePower": 110,
+        "successChance": 5
+    },
+    "383": {
+        "name": "Pound",
+        "alias": "pound",
+        "type": "Normal",
+        "basePower": 40,
+        "successChance": 85
+    },
+    "384": {
+        "name": "Powder Snow",
+        "alias": "powdersnow",
+        "type": "Ice",
+        "basePower": 40,
+        "successChance": 85
+    },
+    "385": {
+        "name": "Power Gem",
+        "alias": "powergem",
+        "type": "Rock",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "386": {
+        "name": "Power Trip",
+        "alias": "powertrip",
+        "type": "Dark",
+        "basePower": 20,
+        "successChance": 95
+    },
+    "387": {
+        "name": "Power-Up Punch",
+        "alias": "poweruppunch",
+        "type": "Fighting",
+        "basePower": 40,
+        "successChance": 85
+    },
+    "388": {
+        "name": "Power Whip",
+        "alias": "powerwhip",
+        "type": "Grass",
+        "basePower": 120,
+        "successChance": 5
+    },
+    "389": {
+        "name": "Precipice Blades",
+        "alias": "precipiceblades",
+        "type": "Ground",
+        "basePower": 120,
+        "successChance": 5
+    },
+    "390": {
+        "name": "Prismatic Laser",
+        "alias": "prismaticlaser",
+        "type": "Psychic",
+        "basePower": 160,
+        "successChance": 5
+    },
+    "391": {
+        "name": "Psybeam",
+        "alias": "psybeam",
+        "type": "Psychic",
+        "basePower": 65,
+        "successChance": 70
+    },
+    "392": {
+        "name": "Psychic",
+        "alias": "psychic",
+        "type": "Psychic",
+        "basePower": 90,
+        "successChance": 60
+    },
+    "393": {
+        "name": "Psychic Fangs",
+        "alias": "psychicfangs",
+        "type": "Psychic",
+        "basePower": 85,
+        "successChance": 60
+    },
+    "394": {
+        "name": "Psycho Boost",
+        "alias": "psychoboost",
+        "type": "Psychic",
+        "basePower": 140,
+        "successChance": 5
+    },
+    "395": {
+        "name": "Psycho Cut",
+        "alias": "psychocut",
+        "type": "Psychic",
+        "basePower": 70,
+        "successChance": 70
+    },
+    "396": {
+        "name": "Psyshock",
+        "alias": "psyshock",
+        "type": "Psychic",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "397": {
+        "name": "Psystrike",
+        "alias": "psystrike",
+        "type": "Psychic",
+        "basePower": 100,
+        "successChance": 55
+    },
+    "398": {
+        "name": "Pulverizing Pancake",
+        "alias": "pulverizingpancake",
+        "type": "Normal",
+        "basePower": 210,
+        "successChance": 5
+    },
+    "399": {
+        "name": "Pursuit",
+        "alias": "pursuit",
+        "type": "Dark",
+        "basePower": 40,
+        "successChance": 85
+    },
+    "400": {
+        "name": "Pyro Ball",
+        "alias": "pyroball",
+        "type": "Fire",
+        "basePower": 120,
+        "successChance": 5
+    },
+    "401": {
+        "name": "Quick Attack",
+        "alias": "quickattack",
+        "type": "Normal",
+        "basePower": 40,
+        "successChance": 85
+    },
+    "402": {
+        "name": "Rage",
+        "alias": "rage",
+        "type": "Normal",
+        "basePower": 20,
+        "successChance": 95
+    },
+    "403": {
+        "name": "Rapid Spin",
+        "alias": "rapidspin",
+        "type": "Normal",
+        "basePower": 50,
+        "successChance": 80
+    },
+    "404": {
+        "name": "Razor Leaf",
+        "alias": "razorleaf",
+        "type": "Grass",
+        "basePower": 55,
+        "successChance": 75
+    },
+    "405": {
+        "name": "Razor Shell",
+        "alias": "razorshell",
+        "type": "Water",
+        "basePower": 75,
+        "successChance": 65
+    },
+    "406": {
+        "name": "Razor Wind",
+        "alias": "razorwind",
+        "type": "Normal",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "407": {
+        "name": "Relic Song",
+        "alias": "relicsong",
+        "type": "Normal",
+        "basePower": 75,
+        "successChance": 65
+    },
+    "408": {
+        "name": "Retaliate",
+        "alias": "retaliate",
+        "type": "Normal",
+        "basePower": 70,
+        "successChance": 70
+    },
+    "409": {
+        "name": "Revelation Dance",
+        "alias": "revelationdance",
+        "type": "Normal",
+        "basePower": 90,
+        "successChance": 60
+    },
+    "410": {
+        "name": "Revenge",
+        "alias": "revenge",
+        "type": "Fighting",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "411": {
+        "name": "Rising Voltage",
+        "alias": "risingvoltage",
+        "type": "Electric",
+        "basePower": 70,
+        "successChance": 70
+    },
+    "412": {
+        "name": "Roar of Time",
+        "alias": "roaroftime",
+        "type": "Dragon",
+        "basePower": 150,
+        "successChance": 5
+    },
+    "413": {
+        "name": "Rock Blast",
+        "alias": "rockblast",
+        "type": "Rock",
+        "basePower": 25,
+        "successChance": 90
+    },
+    "414": {
+        "name": "Rock Climb",
+        "alias": "rockclimb",
+        "type": "Normal",
+        "basePower": 90,
+        "successChance": 60
+    },
+    "415": {
+        "name": "Rock Slide",
+        "alias": "rockslide",
+        "type": "Rock",
+        "basePower": 75,
+        "successChance": 65
+    },
+    "416": {
+        "name": "Rock Smash",
+        "alias": "rocksmash",
+        "type": "Fighting",
+        "basePower": 40,
+        "successChance": 85
+    },
+    "417": {
+        "name": "Rock Throw",
+        "alias": "rockthrow",
+        "type": "Rock",
+        "basePower": 50,
+        "successChance": 80
+    },
+    "418": {
+        "name": "Rock Tomb",
+        "alias": "rocktomb",
+        "type": "Rock",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "419": {
+        "name": "Rock Wrecker",
+        "alias": "rockwrecker",
+        "type": "Rock",
+        "basePower": 150,
+        "successChance": 5
+    },
+    "420": {
+        "name": "Rolling Kick",
+        "alias": "rollingkick",
+        "type": "Fighting",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "421": {
+        "name": "Rollout",
+        "alias": "rollout",
+        "type": "Rock",
+        "basePower": 30,
+        "successChance": 90
+    },
+    "422": {
+        "name": "Round",
+        "alias": "round",
+        "type": "Normal",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "423": {
+        "name": "Sacred Fire",
+        "alias": "sacredfire",
+        "type": "Fire",
+        "basePower": 100,
+        "successChance": 55
+    },
+    "424": {
+        "name": "Sacred Sword",
+        "alias": "sacredsword",
+        "type": "Fighting",
+        "basePower": 90,
+        "successChance": 60
+    },
+    "425": {
+        "name": "Sand Tomb",
+        "alias": "sandtomb",
+        "type": "Ground",
+        "basePower": 35,
+        "successChance": 85
+    },
+    "426": {
+        "name": "Sappy Seed",
+        "alias": "sappyseed",
+        "type": "Grass",
+        "basePower": 100,
+        "successChance": 55
+    },
+    "427": {
+        "name": "Savage Spin-Out",
+        "alias": "savagespinout",
+        "type": "Bug",
+        "basePower": 1,
+        "successChance": 100
+    },
+    "428": {
+        "name": "Scald",
+        "alias": "scald",
+        "type": "Water",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "429": {
+        "name": "Scale Shot",
+        "alias": "scaleshot",
+        "type": "Dragon",
+        "basePower": 25,
+        "successChance": 90
+    },
+    "430": {
+        "name": "Scorching Sands",
+        "alias": "scorchingsands",
+        "type": "Ground",
+        "basePower": 70,
+        "successChance": 70
+    },
+    "431": {
+        "name": "Scratch",
+        "alias": "scratch",
+        "type": "Normal",
+        "basePower": 40,
+        "successChance": 85
+    },
+    "432": {
+        "name": "Searing Shot",
+        "alias": "searingshot",
+        "type": "Fire",
+        "basePower": 100,
+        "successChance": 55
+    },
+    "433": {
+        "name": "Searing Sunraze Smash",
+        "alias": "searingsunrazesmash",
+        "type": "Steel",
+        "basePower": 200,
+        "successChance": 5
+    },
+    "434": {
+        "name": "Secret Power",
+        "alias": "secretpower",
+        "type": "Normal",
+        "basePower": 70,
+        "successChance": 70
+    },
+    "435": {
+        "name": "Secret Sword",
+        "alias": "secretsword",
+        "type": "Fighting",
+        "basePower": 85,
+        "successChance": 60
+    },
+    "436": {
+        "name": "Seed Bomb",
+        "alias": "seedbomb",
+        "type": "Grass",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "437": {
+        "name": "Seed Flare",
+        "alias": "seedflare",
+        "type": "Grass",
+        "basePower": 120,
+        "successChance": 5
+    },
+    "438": {
+        "name": "Self-Destruct",
+        "alias": "selfdestruct",
+        "type": "Normal",
+        "basePower": 200,
+        "successChance": 5
+    },
+    "439": {
+        "name": "Shadow Ball",
+        "alias": "shadowball",
+        "type": "Ghost",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "440": {
+        "name": "Shadow Bone",
+        "alias": "shadowbone",
+        "type": "Ghost",
+        "basePower": 85,
+        "successChance": 60
+    },
+    "441": {
+        "name": "Shadow Claw",
+        "alias": "shadowclaw",
+        "type": "Ghost",
+        "basePower": 70,
+        "successChance": 70
+    },
+    "442": {
+        "name": "Shadow Force",
+        "alias": "shadowforce",
+        "type": "Ghost",
+        "basePower": 120,
+        "successChance": 5
+    },
+    "443": {
+        "name": "Shadow Punch",
+        "alias": "shadowpunch",
+        "type": "Ghost",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "444": {
+        "name": "Shadow Sneak",
+        "alias": "shadowsneak",
+        "type": "Ghost",
+        "basePower": 40,
+        "successChance": 85
+    },
+    "445": {
+        "name": "Shattered Psyche",
+        "alias": "shatteredpsyche",
+        "type": "Psychic",
+        "basePower": 1,
+        "successChance": 100
+    },
+    "446": {
+        "name": "Shell Side Arm",
+        "alias": "shellsidearm",
+        "type": "Poison",
+        "basePower": 90,
+        "successChance": 60
+    },
+    "447": {
+        "name": "Shell Trap",
+        "alias": "shelltrap",
+        "type": "Fire",
+        "basePower": 150,
+        "successChance": 5
+    },
+    "448": {
+        "name": "Shock Wave",
+        "alias": "shockwave",
+        "type": "Electric",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "449": {
+        "name": "Signal Beam",
+        "alias": "signalbeam",
+        "type": "Bug",
+        "basePower": 75,
+        "successChance": 65
+    },
+    "450": {
+        "name": "Silver Wind",
+        "alias": "silverwind",
+        "type": "Bug",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "451": {
+        "name": "Sinister Arrow Raid",
+        "alias": "sinisterarrowraid",
+        "type": "Ghost",
+        "basePower": 180,
+        "successChance": 5
+    },
+    "452": {
+        "name": "Sizzly Slide",
+        "alias": "sizzlyslide",
+        "type": "Fire",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "453": {
+        "name": "Skitter Smack",
+        "alias": "skittersmack",
+        "type": "Bug",
+        "basePower": 70,
+        "successChance": 70
+    },
+    "454": {
+        "name": "Skull Bash",
+        "alias": "skullbash",
+        "type": "Normal",
+        "basePower": 130,
+        "successChance": 5
+    },
+    "455": {
+        "name": "Sky Attack",
+        "alias": "skyattack",
+        "type": "Flying",
+        "basePower": 140,
+        "successChance": 5
+    },
+    "456": {
+        "name": "Sky Drop",
+        "alias": "skydrop",
+        "type": "Flying",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "457": {
+        "name": "Sky Uppercut",
+        "alias": "skyuppercut",
+        "type": "Fighting",
+        "basePower": 85,
+        "successChance": 60
+    },
+    "458": {
+        "name": "Slam",
+        "alias": "slam",
+        "type": "Normal",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "459": {
+        "name": "Slash",
+        "alias": "slash",
+        "type": "Normal",
+        "basePower": 70,
+        "successChance": 70
+    },
+    "460": {
+        "name": "Sludge",
+        "alias": "sludge",
+        "type": "Poison",
+        "basePower": 65,
+        "successChance": 70
+    },
+    "461": {
+        "name": "Sludge Bomb",
+        "alias": "sludgebomb",
+        "type": "Poison",
+        "basePower": 90,
+        "successChance": 60
+    },
+    "462": {
+        "name": "Sludge Wave",
+        "alias": "sludgewave",
+        "type": "Poison",
+        "basePower": 95,
+        "successChance": 55
+    },
+    "463": {
+        "name": "Smack Down",
+        "alias": "smackdown",
+        "type": "Rock",
+        "basePower": 50,
+        "successChance": 80
+    },
+    "464": {
+        "name": "Smart Strike",
+        "alias": "smartstrike",
+        "type": "Steel",
+        "basePower": 70,
+        "successChance": 70
+    },
+    "465": {
+        "name": "Smelling Salts",
+        "alias": "smellingsalts",
+        "type": "Normal",
+        "basePower": 70,
+        "successChance": 70
+    },
+    "466": {
+        "name": "Smog",
+        "alias": "smog",
+        "type": "Poison",
+        "basePower": 30,
+        "successChance": 90
+    },
+    "467": {
+        "name": "Snap Trap",
+        "alias": "snaptrap",
+        "type": "Grass",
+        "basePower": 35,
+        "successChance": 85
+    },
+    "468": {
+        "name": "Snarl",
+        "alias": "snarl",
+        "type": "Dark",
+        "basePower": 55,
+        "successChance": 75
+    },
+    "469": {
+        "name": "Snipe Shot",
+        "alias": "snipeshot",
+        "type": "Water",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "470": {
+        "name": "Snore",
+        "alias": "snore",
+        "type": "Normal",
+        "basePower": 50,
+        "successChance": 80
+    },
+    "471": {
+        "name": "Solar Beam",
+        "alias": "solarbeam",
+        "type": "Grass",
+        "basePower": 120,
+        "successChance": 5
+    },
+    "472": {
+        "name": "Solar Blade",
+        "alias": "solarblade",
+        "type": "Grass",
+        "basePower": 125,
+        "successChance": 5
+    },
+    "473": {
+        "name": "Soul-Stealing 7-Star Strike",
+        "alias": "soulstealing7starstrike",
+        "type": "Ghost",
+        "basePower": 195,
+        "successChance": 5
+    },
+    "474": {
+        "name": "Spacial Rend",
+        "alias": "spacialrend",
+        "type": "Dragon",
+        "basePower": 100,
+        "successChance": 55
+    },
+    "475": {
+        "name": "Spark",
+        "alias": "spark",
+        "type": "Electric",
+        "basePower": 65,
+        "successChance": 70
+    },
+    "476": {
+        "name": "Sparkling Aria",
+        "alias": "sparklingaria",
+        "type": "Water",
+        "basePower": 90,
+        "successChance": 60
+    },
+    "477": {
+        "name": "Sparkly Swirl",
+        "alias": "sparklyswirl",
+        "type": "Fairy",
+        "basePower": 120,
+        "successChance": 5
+    },
+    "478": {
+        "name": "Spectral Thief",
+        "alias": "spectralthief",
+        "type": "Ghost",
+        "basePower": 90,
+        "successChance": 60
+    },
+    "479": {
+        "name": "Spike Cannon",
+        "alias": "spikecannon",
+        "type": "Normal",
+        "basePower": 20,
+        "successChance": 95
+    },
+    "480": {
+        "name": "Spirit Break",
+        "alias": "spiritbreak",
+        "type": "Fairy",
+        "basePower": 75,
+        "successChance": 65
+    },
+    "481": {
+        "name": "Spirit Shackle",
+        "alias": "spiritshackle",
+        "type": "Ghost",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "482": {
+        "name": "Splintered Stormshards",
+        "alias": "splinteredstormshards",
+        "type": "Rock",
+        "basePower": 190,
+        "successChance": 5
+    },
+    "483": {
+        "name": "Splishy Splash",
+        "alias": "splishysplash",
+        "type": "Water",
+        "basePower": 90,
+        "successChance": 60
+    },
+    "484": {
+        "name": "Steam Eruption",
+        "alias": "steameruption",
+        "type": "Water",
+        "basePower": 110,
+        "successChance": 5
+    },
+    "485": {
+        "name": "Steamroller",
+        "alias": "steamroller",
+        "type": "Bug",
+        "basePower": 65,
+        "successChance": 70
+    },
+    "486": {
+        "name": "Steel Beam",
+        "alias": "steelbeam",
+        "type": "Steel",
+        "basePower": 140,
+        "successChance": 5
+    },
+    "487": {
+        "name": "Steel Roller",
+        "alias": "steelroller",
+        "type": "Steel",
+        "basePower": 130,
+        "successChance": 5
+    },
+    "488": {
+        "name": "Steel Wing",
+        "alias": "steelwing",
+        "type": "Steel",
+        "basePower": 70,
+        "successChance": 70
+    },
+    "489": {
+        "name": "Stoked Sparksurfer",
+        "alias": "stokedsparksurfer",
+        "type": "Electric",
+        "basePower": 175,
+        "successChance": 5
+    },
+    "490": {
+        "name": "Stomp",
+        "alias": "stomp",
+        "type": "Normal",
+        "basePower": 65,
+        "successChance": 70
+    },
+    "491": {
+        "name": "Stomping Tantrum",
+        "alias": "stompingtantrum",
+        "type": "Ground",
+        "basePower": 75,
+        "successChance": 65
+    },
+    "492": {
+        "name": "Stone Edge",
+        "alias": "stoneedge",
+        "type": "Rock",
+        "basePower": 100,
+        "successChance": 55
+    },
+    "493": {
+        "name": "Stored Power",
+        "alias": "storedpower",
+        "type": "Psychic",
+        "basePower": 20,
+        "successChance": 95
+    },
+    "494": {
+        "name": "Storm Throw",
+        "alias": "stormthrow",
+        "type": "Fighting",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "495": {
+        "name": "Strange Steam",
+        "alias": "strangesteam",
+        "type": "Fairy",
+        "basePower": 90,
+        "successChance": 60
+    },
+    "496": {
+        "name": "Strength",
+        "alias": "strength",
+        "type": "Normal",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "497": {
+        "name": "Struggle",
+        "alias": "struggle",
+        "type": "Normal",
+        "basePower": 50,
+        "successChance": 80
+    },
+    "498": {
+        "name": "Struggle Bug",
+        "alias": "strugglebug",
+        "type": "Bug",
+        "basePower": 50,
+        "successChance": 80
+    },
+    "499": {
+        "name": "Submission",
+        "alias": "submission",
+        "type": "Fighting",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "500": {
+        "name": "Subzero Slammer",
+        "alias": "subzeroslammer",
+        "type": "Ice",
+        "basePower": 1,
+        "successChance": 100
+    },
+    "501": {
+        "name": "Sucker Punch",
+        "alias": "suckerpunch",
+        "type": "Dark",
+        "basePower": 70,
+        "successChance": 70
+    },
+    "502": {
+        "name": "Sunsteel Strike",
+        "alias": "sunsteelstrike",
+        "type": "Steel",
+        "basePower": 100,
+        "successChance": 55
+    },
+    "503": {
+        "name": "Superpower",
+        "alias": "superpower",
+        "type": "Fighting",
+        "basePower": 120,
+        "successChance": 5
+    },
+    "504": {
+        "name": "Supersonic Skystrike",
+        "alias": "supersonicskystrike",
+        "type": "Flying",
+        "basePower": 1,
+        "successChance": 100
+    },
+    "505": {
+        "name": "Surf",
+        "alias": "surf",
+        "type": "Water",
+        "basePower": 90,
+        "successChance": 60
+    },
+    "506": {
+        "name": "Surging Strikes",
+        "alias": "surgingstrikes",
+        "type": "Water",
+        "basePower": 25,
+        "successChance": 90
+    },
+    "507": {
+        "name": "Swift",
+        "alias": "swift",
+        "type": "Normal",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "508": {
+        "name": "Synchronoise",
+        "alias": "synchronoise",
+        "type": "Psychic",
+        "basePower": 120,
+        "successChance": 5
+    },
+    "509": {
+        "name": "Tackle",
+        "alias": "tackle",
+        "type": "Normal",
+        "basePower": 40,
+        "successChance": 85
+    },
+    "510": {
+        "name": "Tail Slap",
+        "alias": "tailslap",
+        "type": "Normal",
+        "basePower": 25,
+        "successChance": 90
+    },
+    "511": {
+        "name": "Take Down",
+        "alias": "takedown",
+        "type": "Normal",
+        "basePower": 90,
+        "successChance": 60
+    },
+    "512": {
+        "name": "Techno Blast",
+        "alias": "technoblast",
+        "type": "Normal",
+        "basePower": 120,
+        "successChance": 5
+    },
+    "513": {
+        "name": "Tectonic Rage",
+        "alias": "tectonicrage",
+        "type": "Ground",
+        "basePower": 1,
+        "successChance": 100
+    },
+    "514": {
+        "name": "Terrain Pulse",
+        "alias": "terrainpulse",
+        "type": "Normal",
+        "basePower": 50,
+        "successChance": 80
+    },
+    "515": {
+        "name": "Thief",
+        "alias": "thief",
+        "type": "Dark",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "516": {
+        "name": "Thousand Arrows",
+        "alias": "thousandarrows",
+        "type": "Ground",
+        "basePower": 90,
+        "successChance": 60
+    },
+    "517": {
+        "name": "Thousand Waves",
+        "alias": "thousandwaves",
+        "type": "Ground",
+        "basePower": 90,
+        "successChance": 60
+    },
+    "518": {
+        "name": "Thrash",
+        "alias": "thrash",
+        "type": "Normal",
+        "basePower": 120,
+        "successChance": 5
+    },
+    "519": {
+        "name": "Throat Chop",
+        "alias": "throatchop",
+        "type": "Dark",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "520": {
+        "name": "Thunder",
+        "alias": "thunder",
+        "type": "Electric",
+        "basePower": 110,
+        "successChance": 5
+    },
+    "521": {
+        "name": "Thunderbolt",
+        "alias": "thunderbolt",
+        "type": "Electric",
+        "basePower": 90,
+        "successChance": 60
+    },
+    "522": {
+        "name": "Thunder Cage",
+        "alias": "thundercage",
+        "type": "Electric",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "523": {
+        "name": "Thunder Fang",
+        "alias": "thunderfang",
+        "type": "Electric",
+        "basePower": 65,
+        "successChance": 70
+    },
+    "524": {
+        "name": "Thunderous Kick",
+        "alias": "thunderouskick",
+        "type": "Fighting",
+        "basePower": 90,
+        "successChance": 60
+    },
+    "525": {
+        "name": "Thunder Punch",
+        "alias": "thunderpunch",
+        "type": "Electric",
+        "basePower": 75,
+        "successChance": 65
+    },
+    "526": {
+        "name": "Thunder Shock",
+        "alias": "thundershock",
+        "type": "Electric",
+        "basePower": 40,
+        "successChance": 85
+    },
+    "527": {
+        "name": "Tri Attack",
+        "alias": "triattack",
+        "type": "Normal",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "528": {
+        "name": "Triple Axel",
+        "alias": "tripleaxel",
+        "type": "Ice",
+        "basePower": 20,
+        "successChance": 95
+    },
+    "529": {
+        "name": "Triple Kick",
+        "alias": "triplekick",
+        "type": "Fighting",
+        "basePower": 10,
+        "successChance": 100
+    },
+    "530": {
+        "name": "Trop Kick",
+        "alias": "tropkick",
+        "type": "Grass",
+        "basePower": 70,
+        "successChance": 70
+    },
+    "531": {
+        "name": "Twineedle",
+        "alias": "twineedle",
+        "type": "Bug",
+        "basePower": 25,
+        "successChance": 90
+    },
+    "532": {
+        "name": "Twinkle Tackle",
+        "alias": "twinkletackle",
+        "type": "Fairy",
+        "basePower": 1,
+        "successChance": 100
+    },
+    "533": {
+        "name": "Twister",
+        "alias": "twister",
+        "type": "Dragon",
+        "basePower": 40,
+        "successChance": 85
+    },
+    "534": {
+        "name": "U-turn",
+        "alias": "uturn",
+        "type": "Bug",
+        "basePower": 70,
+        "successChance": 70
+    },
+    "535": {
+        "name": "Uproar",
+        "alias": "uproar",
+        "type": "Normal",
+        "basePower": 90,
+        "successChance": 60
+    },
+    "536": {
+        "name": "Vacuum Wave",
+        "alias": "vacuumwave",
+        "type": "Fighting",
+        "basePower": 40,
+        "successChance": 85
+    },
+    "537": {
+        "name": "V-create",
+        "alias": "vcreate",
+        "type": "Fire",
+        "basePower": 180,
+        "successChance": 5
+    },
+    "538": {
+        "name": "Venoshock",
+        "alias": "venoshock",
+        "type": "Poison",
+        "basePower": 65,
+        "successChance": 70
+    },
+    "539": {
+        "name": "Vine Whip",
+        "alias": "vinewhip",
+        "type": "Grass",
+        "basePower": 45,
+        "successChance": 80
+    },
+    "540": {
+        "name": "Vise Grip",
+        "alias": "visegrip",
+        "type": "Normal",
+        "basePower": 55,
+        "successChance": 75
+    },
+    "541": {
+        "name": "Vital Throw",
+        "alias": "vitalthrow",
+        "type": "Fighting",
+        "basePower": 70,
+        "successChance": 70
+    },
+    "542": {
+        "name": "Volt Switch",
+        "alias": "voltswitch",
+        "type": "Electric",
+        "basePower": 70,
+        "successChance": 70
+    },
+    "543": {
+        "name": "Volt Tackle",
+        "alias": "volttackle",
+        "type": "Electric",
+        "basePower": 120,
+        "successChance": 5
+    },
+    "544": {
+        "name": "Wake-Up Slap",
+        "alias": "wakeupslap",
+        "type": "Fighting",
+        "basePower": 70,
+        "successChance": 70
+    },
+    "545": {
+        "name": "Waterfall",
+        "alias": "waterfall",
+        "type": "Water",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "546": {
+        "name": "Water Gun",
+        "alias": "watergun",
+        "type": "Water",
+        "basePower": 40,
+        "successChance": 85
+    },
+    "547": {
+        "name": "Water Pledge",
+        "alias": "waterpledge",
+        "type": "Water",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "548": {
+        "name": "Water Pulse",
+        "alias": "waterpulse",
+        "type": "Water",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "549": {
+        "name": "Water Shuriken",
+        "alias": "watershuriken",
+        "type": "Water",
+        "basePower": 15,
+        "successChance": 95
+    },
+    "550": {
+        "name": "Water Spout",
+        "alias": "waterspout",
+        "type": "Water",
+        "basePower": 150,
+        "successChance": 5
+    },
+    "551": {
+        "name": "Weather Ball",
+        "alias": "weatherball",
+        "type": "Normal",
+        "basePower": 50,
+        "successChance": 80
+    },
+    "552": {
+        "name": "Whirlpool",
+        "alias": "whirlpool",
+        "type": "Water",
+        "basePower": 35,
+        "successChance": 85
+    },
+    "553": {
+        "name": "Wicked Blow",
+        "alias": "wickedblow",
+        "type": "Dark",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "554": {
+        "name": "Wild Charge",
+        "alias": "wildcharge",
+        "type": "Electric",
+        "basePower": 90,
+        "successChance": 60
+    },
+    "555": {
+        "name": "Wing Attack",
+        "alias": "wingattack",
+        "type": "Flying",
+        "basePower": 60,
+        "successChance": 75
+    },
+    "556": {
+        "name": "Wood Hammer",
+        "alias": "woodhammer",
+        "type": "Grass",
+        "basePower": 120,
+        "successChance": 5
+    },
+    "557": {
+        "name": "Wrap",
+        "alias": "wrap",
+        "type": "Normal",
+        "basePower": 15,
+        "successChance": 95
+    },
+    "558": {
+        "name": "X-Scissor",
+        "alias": "xscissor",
+        "type": "Bug",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "559": {
+        "name": "Zap Cannon",
+        "alias": "zapcannon",
+        "type": "Electric",
+        "basePower": 120,
+        "successChance": 5
+    },
+    "560": {
+        "name": "Zen Headbutt",
+        "alias": "zenheadbutt",
+        "type": "Psychic",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "561": {
+        "name": "Zing Zap",
+        "alias": "zingzap",
+        "type": "Electric",
+        "basePower": 80,
+        "successChance": 65
+    },
+    "562": {
+        "name": "Zippy Zap",
+        "alias": "zippyzap",
+        "type": "Electric",
+        "basePower": 80,
+        "successChance": 65
+    }
+}

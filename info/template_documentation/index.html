@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Créer son template !</title>
+
+    <link rel="stylesheet" href="css/markdown5.css">
+</head>
+<body>
+    <h1>Documentation pour créer son propre livre de jeu !</h1>
+
+    <hr />
+
+    <p>Si vous êtes ici, c'est pour apprendre à fabriquer son aventure.</p>
+    <p>C'est très simple, grâce à la fonctionnalité <strong>Template Creator</strong> !</p>
+
+    <blockquote>
+    <p>
+        Il faudrait quand même savoir comment est formé un livre avant de se lancer.
+    </p>    
+    </blockquote>
+
+    <p>Avant tout, il faut savoir que nous ne créons pas véritablement un livre, nous créons un template de livre. Un fichier que le programme pourra facilement adapter en une suite de scènes qui représenteront ensuite un livre. Dans un template, nous allons juste informer le programme de toutes les scènes que nous voulons voir apparaître et quand.</p>
+    
+    <p>Il est nécessaire également de savoir ce qu'est une scène.<br> 
+    Une scène peut être comparée à une page du livre. Le joueur navigue de scène en scène, et dans notre intépretation d'un livres où je suis le héros, une interaction est toujours liée à une scène. Une interaction représente ce qu'il va se passer dans la scène, vous pouvez retrouver en dessous toutes les interactions implémentées pour l'instant.</p>
+
+    <p>Un template de livre, est composé de :
+    <ul>
+        <li>Une scène de départ</li>
+        <li>Une scène d'arrivé</li>
+        <li>Une quantité de gold et un objet à obtenir pour gagner la partie</li>
+        <li>Un nombre de répétition de tout les blocs</li>
+        <li>Au moins un bloc regroupant 
+            <ul>
+                <li>Un point de départ du bloc</li>
+                <li>Un point de fin du bloc</li>
+                <li>Un nombre de répétion de chaque ligne du bloc</li>
+                <li>Une liste de nom et d'alias de scène qui apparaîtrons sur chaque ligne</li>
+                <li>Une liste d'interaction qui sera aléatoirement distribuée aux scènes précédement citées</li>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    </p>
+
+    <p>Vous avez ici, un exemple fonctionnel d'un template de jeu, si l'on regarde, nous retrouvons tous les points cités précédement dans l'ordre.</p>
+    <pre><code class="language-java">
+{
+    "spawn": {
+        "name": "Village",
+        "interaction": {
+            "text": [
+                "Bonjour aventurier !",
+                "Votre mission si vous l'acceptez ..."
+            ],
+            "type": "text"
+        },
+        "alias": "spawn"
+    },
+
+    "finish": {
+        "name": "Salle des coffres",
+        "interaction": {
+            "text": [
+                "Super, vous avez réussi !"
+            ],
+            "type": "text"
+        },
+        "alias": "finish"
+    },
+
+    "objective": {
+        "objectiveItem": "blackbelt",
+        "objectiveGold": 25
+    },
+
+    "nbBlocRepeat": 1,
+    
+    "bloc": [
+        {
+            "start_node": {
+                "name": "Entre de la foret",
+                "interaction": {
+                    "text": [
+                        "Voila l'entré de la foret.",
+                        "Quel chemin choisissez vous ?"
+                    ],
+                    "type": "text"
+                },
+                "alias": "entre_de_la_foret"
+            },
+
+            "end_node": {
+                "name": "Sortie de la foret",
+                "interaction": {
+                    "text": [
+                        "Enfin sortie de cette maudite forêt !"
+                    ],
+                    "type": "final"
+                },
+                "alias": "sortie_de_la_foret"
+            },
+
+            "nbRepeat": 3,
+
+            "nameBetween": [
+                [
+                    "clairiere",
+                    "clairiere"
+                ],
+                [
+                    "grotte",
+                    "grotte"
+                ],
+                [
+                    "lac",
+                    "lac"
+                ]
+            ]
+
+            "possibleInteraction": [
+                "temple",
+                "battle",
+                "gameOver"
+            ]
+        }
+    ]
+}
+    </code></pre>
+
+    <div class="col">
+        <p>On peut imager tout ça en créant un arbre type : <br> 
+        Il y a le point de Spawn et de Finish, et des blocs avec différentes scène à l'intérieur.
+        </p>
+        <img src="assets/exemple_tree.jpg" alt="">
+    </div>
+    
+    <h2>Interface de création</h2>
+
+    <hr />
+    <p>Vous avez à votre dispositon un interface permettant de gérer chacun de ces cas grâce son onglet.</p>
+    <p>Nous allons faire un rapide tour des fonctionnalités les moins évidentes pour pouvoir enfin se lancer dans la création de notre histoire.</p>
+    
+    <h2>Spawn / Finish</h2>
+    <hr />
+    <p>Pour information chaque scène Spawn / Finish d'un bloc ou d'un arbre ont une interaction de type text, ce qui veut dire qu'elles vont nous permettre d'afficher du texte. L'interet de ces noeuds est de pouvoir raconter notre histoire et d'ajouter du contexte.</p>
+    <p>Chaque paragraphe que nous voulons ajouter devra être séparé par un ";", comme noté juste à coté.</p>
+
+    <h2>Bloc → Contenu du bloc</h2>
+    <hr />
+    <p>C'est ici que nous allons choisir les scènes qui apparaîtrons dans notre bloc. Nous avons 3 champs a entrer.</p>
+    <ul>
+        <li>Le premier nous permet de choisir le nombre de d'étage ou de répétition que nous voulons dans notre bloc.</li>
+        <li>Le second, de la même manère que pour entrer les paragraphes dans les scènes de type texte, nous entrons sur chaque ligne, le nom d'une scène que nous voulons voir apparaître. Il est possible d'entrer son alias pour pouvoir mieux s'organiser si l'on veut y retoucher plus tard, mais sinon le programme se débrouillera sans.</li>
+        <li>Le dernier point permet de choisir les interactions qui pourront apparaître, aléatoirement sur une scène.</li>
+    </ul>
+
+    <h2>Algorithme / Visualisation</h2>
+    <hr />
+
+    <p>Et pour finir, ces deux onglets nous permettent d'avoir des informations et une visualisation sur un arbre, a condition que celui ci soit déjà complet.</p>
+    <p>Pour savoir si tout les champs minimuns ont été complété, il suffit de regarder la bar du bas, et si tout les champs indiquent OK, c'est que l'arbre est complet.</p>
+
+    <p>Vous avez toutes les clés en main pour créer votre propre aventure !</p>
+</body>
+</html>

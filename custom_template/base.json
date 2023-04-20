@@ -1,0 +1,115 @@
+{
+    "bloc": [
+        {
+            "end_node": {
+                "name": "Sortie de la foret",
+                "interaction": {
+                    "text": [
+                        "Nous somme enfin sortie de la foret"
+                    ],
+                    "type": "text"
+                },
+                "alias": "sortie_de_la_foret"
+            },
+            "start_node": {
+                "name": "Entree de la foret",
+                "interaction": {
+                    "text": [
+                        "Voila l'entree de la foret"
+                    ],
+                    "type": "text"
+                },
+                "alias": "entree_de_la_foret"
+            },
+            "possibleInteraction": [
+                "battle",
+                "temple",
+                "treasure"
+            ],
+            "nbRepeat": 2,
+            "nameBetween": [
+                [
+                    "clairiere",
+                    "Clairiere"
+                ],
+                [
+                    "grotte",
+                    "Grotte"
+                ],
+                [
+                    "lac",
+                    "Lac"
+                ]
+            ]
+        },
+        {
+            "end_node": {
+                "name": "Sortie de la ville",
+                "interaction": {
+                    "text": [
+                        "C'est repartie pour l'aventure !"
+                    ],
+                    "type": "final"
+                },
+                "alias": "sortie_de_la_ville"
+            },
+            "start_node": {
+                "name": "Entree de la ville",
+                "interaction": {
+                    "text": [
+                        "Nous voila enfin en ville"
+                    ],
+                    "type": "text"
+                },
+                "alias": "entree_de_la_ville"
+            },
+            "possibleInteraction": [
+                "shop",
+                "temple",
+                "treasure"
+            ],
+            "nbRepeat": 1,
+            "nameBetween": [
+                [
+                    "grand_place",
+                    "Grand place"
+                ],
+                [
+                    "avenue",
+                    "Avenue"
+                ],
+                [
+                    "ruelle",
+                    "Ruelle"
+                ]
+            ]
+        }
+    ],
+    "spawn": {
+        "name": "Village de depart",
+        "interaction": {
+            "text": [
+                "Votre quete, si vous l'acceptez, rassembler pour le roi, l'objet et la somme note e votre droite",
+                "Sortez du village, et faites attention !"
+            ],
+            "type": "text"
+        },
+        "alias": "spawn"
+    },
+    "nbBlocRepeat": 1,
+    "finish": {
+        "name": "Salle du roi",
+        "interaction": {
+            "text": [
+                "Voila enfin votre quete qui touche a sa fin",
+                "J'espere que vous avez reussi !"
+            ],
+            "type": "final"
+        },
+        "alias": "finish"
+    },
+    "objective": {
+        "objectiveItem": "bigroot",
+        "objectiveGold": 25
+    }
+}
